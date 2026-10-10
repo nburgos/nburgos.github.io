@@ -7,6 +7,7 @@ publications.json (if any) is left untouched and the script exits non-zero.
 """
 
 import json
+import re
 import sys
 import time
 import urllib.parse
@@ -23,6 +24,8 @@ FIELDS = ",".join(
     [
         "title_s",
         "authFullName_s",
+        "authFirstName_s",
+        "authLastName_s",
         "docType_s",
         "publicationDate_s",
         "producedDate_s",
@@ -80,6 +83,32 @@ def clean(value):
     return value
 
 
+def initial(first_name):
+    """Convert a first name to initials: 'Hugues' -> 'H.', 'Jean-Baptiste' -> 'J.-B.'."""
+    if not first_name:
+        return ""
+    return "-".join(
+        f"{part[0].upper()}." for part in re.split(r"[\s-]+", first_name.strip()) if part
+    )
+
+
+def format_authors(doc):
+    """Build the author string with first-name initials, e.g. 'H. Roy, R. Dorent, N. Burgos'.
+
+    Uses HAL's parallel authFirstName_s/authLastName_s lists when available,
+    falling back to authFullName_s otherwise.
+    """
+    first_names = doc.get("authFirstName_s") or []
+    last_names = doc.get("authLastName_s") or []
+    full_names = doc.get("authFullName_s") or []
+    if last_names and len(last_names) == len(first_names):
+        return ", ".join(
+            f"{initial(first)} {last}".strip()
+            for first, last in zip(first_names, last_names)
+        )
+    return ", ".join(full_names)
+
+
 def normalize(doc):
     """Map a raw HAL document to a flat record for the website."""
     venue_parts = []
@@ -113,7 +142,7 @@ def normalize(doc):
 
     return {
         "title": clean(doc.get("title_s")),
-        "authors": clean(doc.get("authFullName_s")),
+        "authors": format_authors(doc),
         "type": clean(doc.get("docType_s")),
         "type_label": DOCTYPE_LABELS.get(clean(doc.get("docType_s")), "Other"),
         "venue": ", ".join(venue_parts) if venue_parts else None,

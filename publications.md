@@ -20,16 +20,20 @@ permalink: /publications/
     {%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
+{%- assign counter = 0 -%}
 {%- for group in ordered_groups -%}
-<section class="pub-group">
-  <div class="pub-type-heading">
-    <h2>{{ group.name }}</h2>
+{%- assign counter = counter | plus: 1 -%}
+<details class="pub-group" {% if counter == 1 %}open{% endif %}>
+  <summary class="pub-type-heading">
+    <span class="pub-type-title">{{ group.name }}</span>
     <span class="pub-count">{{ group.items | size }} documents</span>
-  </div>
+  </summary>
+  <div class="pub-list">
   {%- for pub in group.items -%}
   {%- include pub.html pub=pub -%}
   {%- endfor -%}
-</section>
+  </div>
+</details>
 {%- endfor -%}
 
 <p class="bibtex-note">

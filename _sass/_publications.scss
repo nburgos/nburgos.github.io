@@ -118,11 +118,63 @@
 }
 
 // ---------- Publications page ----------
-.pub-type-heading {
+details.pub-group {
+  margin: 0 0 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden; // clip content against rounded corners
+}
+
+details.pub-group > summary {
+  list-style: none; // hide default disclosure triangle
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
+  cursor: pointer;
+  padding: 0.85rem 1.25rem;
+  background: var(--surface);
+  transition: background-color 0.2s ease;
+  min-height: 44px;
+  box-sizing: border-box;
+}
+
+details.pub-group > summary::-webkit-details-marker {
+  display: none; // Safari
+}
+
+details.pub-group > summary:hover {
+  background: var(--accent);
+  color: #fff;
+
+  .pub-count {
+    color: #fff;
+  }
+}
+
+.pub-type-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.pub-type-title::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 6px solid currentColor;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  flex: none;
+  transform: translateY(-1px);
+  transition: transform 0.2s ease;
+}
+
+details[open] > summary .pub-type-title::before {
+  transform: rotate(90deg) translateX(2px);
 }
 
 .pub-count {
@@ -130,6 +182,10 @@
   font-weight: 400;
   color: var(--text-muted);
   white-space: nowrap;
+}
+
+.pub-list {
+  padding: 0 1.25rem 0.75rem;
 }
 
 .bibtex-note {
