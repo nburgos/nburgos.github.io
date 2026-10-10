@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <ul class="social-links">
+      {%- if site.social.scholar -%}
+      <li><a href="{{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>
+      {%- endif -%}
+      {%- if site.social.hal -%}
+      <li><a href="{{ site.social.hal }}" target="_blank" rel="noopener">HAL</a></li>
+      {%- endif -%}
+      {%- if site.social.publons -%}
+      <li><a href="{{ site.social.publons }}" target="_blank" rel="noopener">Publons</a></li>
+      {%- endif -%}
+      {%- if site.social.linkedin -%}
+      <li><a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+      {%- endif -%}
+      {%- if site.social.researchgate -%}
+      <li><a href="{{ site.social.researchgate }}" target="_blank" rel="noopener">ResearchGate</a></li>
+      {%- endif -%}
+      {%- if site.social.zotero -%}
+      <li><a href="{{ site.social.zotero }}" target="_blank" rel="noopener">Zotero</a></li>
+      {%- endif -%}
+    </ul>
+    <p class="footer-note">
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot;
+      <a href="{{ '/publications/' | relative_url }}">Publications</a> are automatically synced from
+      <a href="{{ site.social.hal }}" target="_blank" rel="noopener">HAL</a>.
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,26 @@
+<article class="pub">
+  <div class="pub-body">
+    <h3 class="pub-title">
+      {%- if pub.uri -%}
+      <a href="{{ pub.uri }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+      {%- else -%}
+      {{ pub.title }}
+      {%- endif -%}
+    </h3>
+    <p class="pub-authors">{{ pub.authors }}</p>
+    <p class="pub-meta">
+      <span class="pub-venue">{{ pub.venue }}</span>
+      {%- if pub.year -%}
+      <span class="pub-badge">{{ pub.year }}</span>
+      {%- endif -%}
+    </p>
+    <p class="pub-links">
+      {%- if pub.doi -%}
+      <a class="pub-link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+      {%- endif -%}
+      {%- if pub.uri -%}
+      <a class="pub-link" href="{{ pub.uri }}" target="_blank" rel="noopener">HAL</a>
+      {%- endif -%}
+    </p>
+  </div>
+</article>

@@ -1,0 +1,38 @@
+// Awesome-CV palette
+// \definecolor{awesome}{HTML}{0a7e8c}     Metallic Seaweed
+// \definecolor{darkawesome}{HTML}{064B54}
+$awesome: #0a7e8c;
+$dark-awesome: #064b54;
+$awesome-light: #4cc3d3; // lightened seaweed for dark mode links (WCAG AA on dark)
+$awesome-strong-dark: #9fd8e0; // headings on dark
+$tint: #e6f3f4; // ~10% surface tint
+$surface-dark: #12323a; // dark teal surface
+$bg-dark: #0b1618; // near-black, teal-tinted
+$text-dark: #1f2933;
+$text-dark-mode: #e4edf0;
+
+:root {
+  --awesome: #{$awesome};
+  --dark-awesome: #{$dark-awesome};
+  --bg: #ffffff;
+  --surface: #{$tint};
+  --text: #{$text-dark};
+  --text-muted: #52606d;
+  --accent: #{$awesome};
+  --accent-strong: #{$dark-awesome};
+  --border: #d9e2e8;
+  --footer-bg: #{$dark-awesome};
+  --focus: #{$awesome};
+}
+
+:root[data-theme="dark"] {
+  --bg: #{$bg-dark};
+  --surface: #{$surface-dark};
+  --text: #{$text-dark-mode};
+  --text-muted: #9fb3bd;
+  --accent: #{$awesome-light};
+  --accent-strong: #{$awesome-strong-dark};
+  --border: #1e3a42;
+  --footer-bg: #{$dark-awesome};
+  --focus: #{$awesome-light};
+}

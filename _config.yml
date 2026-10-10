@@ -1,0 +1,58 @@
+# Site settings
+title: Ninon Burgos
+email: ninon.burgos@icm-institute.org
+description: >-
+  Personal website of Ninon Burgos, CNRS research director at the Paris Brain
+  Institute, co-head of the ARAMIS Lab.
+url: "https://ninonburgos.com"
+baseurl: ""
+
+idhal: "ninon-burgos"
+hal_api: "https://api.archives-ouvertes.fr/search/"
+bibtex_url: "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:ninon-burgos&wt=bibtex"
+
+author:
+  name: Ninon Burgos
+  role: CNRS Research Director
+  affiliation: Paris Brain Institute (ICM)
+  photo: /files/ninon-burgos.jpg
+  cv: /files/CV_NinonBurgos.pdf
+
+social:
+  scholar: https://scholar.google.com/citations?user=lHuYSU0AAAAJ
+  hal: https://hal.science/search/index/q/Ninon+Burgos/
+  publons: https://publons.com/author/1522483/ninon-burgos#profile
+  linkedin: https://www.linkedin.com/in/ninonburgos/
+  researchgate: https://www.researchgate.net/profile/Ninon_Burgos
+  zotero: https://www.zotero.org/nburgos
+
+nav:
+  - label: Home
+    url: /
+  - label: Research projects
+    url: /research-projects/
+  - label: Publications
+    url: /publications/
+  - label: Software
+    url: /software/
+
+markdown: kramdown
+highlighter: rouge
+
+# GitHub Pages build settings (only officially supported plugins)
+plugins:
+  - jekyll-seo-tag
+
+# Keep the HAL sync script out of the site output
+exclude:
+  - scripts
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .github
+  - vendor
+
+# Disable the default theme (GitHub Pages falls back to jekyll-theme-primer
+# when unset, which copies unwanted assets into the site).
+theme: null

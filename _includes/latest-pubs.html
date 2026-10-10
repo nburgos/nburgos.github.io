@@ -1,0 +1,18 @@
+<section class="latest-pubs">
+  <h2>Latest publications</h2>
+  <ul class="latest-pubs-list">
+    {%- assign pubs = site.data.publications | sort: "submitted" | reverse -%}
+    {%- assign shown = 0 -%}
+    {%- for pub in pubs -%}
+      {%- if shown < 9 -%}
+      <li>
+        <a href="{{ pub.uri }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+      </li>
+      {%- assign shown = shown | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  <p class="latest-pubs-more">
+    <a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+  </p>
+</section>

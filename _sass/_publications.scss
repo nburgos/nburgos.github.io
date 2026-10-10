@@ -1,0 +1,142 @@
+// ---------- Latest publications (home) ----------
+.latest-pubs {
+  margin-top: 3rem;
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem 1.25rem;
+}
+
+.latest-pubs h2 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+.latest-pubs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.latest-pubs-list a {
+  color: var(--text);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.latest-pubs-list a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.latest-pubs-more {
+  margin: 1rem 0 0;
+  text-align: right;
+}
+
+// ---------- Publication cards ----------
+.pub {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.pub-title a {
+  color: var(--accent-strong);
+}
+
+.pub-title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.pub-authors {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+}
+
+.pub-meta {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.pub-badge {
+  font-style: normal;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 0.08rem 0.6rem;
+}
+
+.pub-links {
+  margin: 0.4rem 0 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 0.15rem 0.7rem;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pub-link:hover {
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+// ---------- Publications page ----------
+.pub-type-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pub-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.bibtex-note {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border-radius: 6px;
+}
