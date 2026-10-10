@@ -10,9 +10,9 @@ permalink: /publications/
 </p>
 
 {%- assign pubs = site.data.publications -%}
-{%- assign groups = pubs | group_by: "type_label" -%}
+{%- assign groups = pubs | group_by: "section_label" -%}
 {%- assign ordered_groups = "" | split: "" -%}
-{%- assign order = "Journal articles|Conference papers|Book chapters|Books|Other" | split: "|" -%}
+{%- assign order = "Journal articles|Conference papers — international, with proceedings|Conference papers — international, without proceedings|Conference papers — national, without proceedings|Conference papers — national, with proceedings|Book chapters|Books|Other" | split: "|" -%}
 {%- for label in order -%}
   {%- for group in groups -%}
     {%- if group.name == label -%}

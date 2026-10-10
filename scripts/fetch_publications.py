@@ -27,6 +27,8 @@ FIELDS = ",".join(
         "authFirstName_s",
         "authLastName_s",
         "docType_s",
+        "audience_s",
+        "proceedings_s",
         "publicationDate_s",
         "producedDate_s",
         "journalTitle_s",
@@ -140,11 +142,22 @@ def normalize(doc):
     pub_date = clean(doc.get("publicationDate_s"))
     year = pub_date[:4] if pub_date else None
 
+    doc_type = clean(doc.get("docType_s"))
+    type_label = DOCTYPE_LABELS.get(doc_type, "Other")
+    section_label = type_label
+    if doc_type == "COMM":
+        audience = clean(doc.get("audience_s"))
+        proceedings = clean(doc.get("proceedings_s"))
+        scope = "national" if audience == "3" else "international"
+        proc = "with proceedings" if proceedings == "1" else "without proceedings"
+        section_label = f"Conference papers — {scope}, {proc}"
+
     return {
         "title": clean(doc.get("title_s")),
         "authors": format_authors(doc),
-        "type": clean(doc.get("docType_s")),
-        "type_label": DOCTYPE_LABELS.get(clean(doc.get("docType_s")), "Other"),
+        "type": doc_type,
+        "type_label": type_label,
+        "section_label": section_label,
         "venue": ", ".join(venue_parts) if venue_parts else None,
         "year": year,
         "doi": clean(doc.get("doiId_s")),
