@@ -7,7 +7,10 @@
       {{ pub.title }}
       {%- endif -%}
     </h3>
-    <p class="pub-authors">{{ pub.authors }}</p>
+    <p class="pub-authors">
+      {%- if pub.type == "PROCEEDINGS" -%}<span class="pub-role">Editors: </span>{%- endif -%}
+      {{ pub.authors }}
+    </p>
     <p class="pub-meta">
       <span class="pub-venue">{{ pub.venue }}</span>
       {%- if pub.year -%}

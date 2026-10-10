@@ -52,6 +52,7 @@ DOCTYPE_LABELS = {
     "OTHER": "Other publications",
     "OUV": "Books",
     "DOUV": "Book directions",
+    "PROCEEDINGS": "Conference proceedings",
     "LECT": "Lectures",
     "IMG": "Images",
     "VIDEO": "Videos",

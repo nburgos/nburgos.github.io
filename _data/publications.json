@@ -122,7 +122,7 @@
   {
     "authors": "A. Joubert, M. Joulot, N. Gensollen, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "Conference papers — national, without proceedings",
     "submitted": "2026-06-02 16:49:21",
     "title": "Benchmarking skull-stripping methods for integration in Clinica",
     "type": "COMM",
@@ -158,7 +158,7 @@
   {
     "authors": "T. de Varax, C. Brianceau, R. Hassanaly, M. Heffernan, H. Roy, M. Solal, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "Conference papers — national, without proceedings",
     "submitted": "2026-04-10 14:28:56",
     "title": "ClinicaDL v2: an open-source Python library for reproducible deep learning in neuroimaging",
     "type": "COMM",
@@ -278,7 +278,7 @@
   {
     "authors": "T. de Varax, C. Brianceau, R. Hassanaly, S. Loizillon, H. Roy, M. Solal, N. Gensollen, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "Conference papers — national, without proceedings",
     "submitted": "2026-07-23 15:01:30",
     "title": "ClinicaDL : un logiciel open-source pour une utilisation reproductible de l'apprentissage profond en neuroimagerie",
     "type": "COMM",
@@ -302,7 +302,7 @@
   {
     "authors": "M. Solal, R. Hassanaly, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "Conference papers — national, without proceedings",
     "submitted": "2026-01-12 18:43:20",
     "title": "Étude de la variabilité des modèles et construction de cartes d'anomalies tenant compte de l'incertitude à l'aide de modèles génératifs profonds non supervisés dans le cadre de la TEP-FDG en 3D du cerveau",
     "type": "COMM",
@@ -374,11 +374,11 @@
   {
     "authors": "N. Burgos, C. Petitjean, M. Vakalopoulou, S. Christodoulidis, P. Coupe, H. Delingette, C. Lartizien, D. Mateus",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Conference proceedings",
     "submitted": "2026-01-20 15:41:12",
     "title": "Proceedings of the Seventh International Conference on Medical Imaging with Deep Learning",
     "type": "PROCEEDINGS",
-    "type_label": "Other",
+    "type_label": "Conference proceedings",
     "uri": "https://normandie-univ.hal.science/hal-05370374v1",
     "venue": "Proceedings of Machine Learning Research, vol. 250, PMLR",
     "year": "2024"
@@ -890,11 +890,11 @@
   {
     "authors": "D. Svoboda, N. Burgos, J.-M. Wolterink, C. Zhao",
     "doi": "10.1007/978-3-030-87592-3",
-    "section_label": "Other",
+    "section_label": "Conference proceedings",
     "submitted": "2022-05-19 10:33:33",
     "title": "Simulation and Synthesis in Medical Imaging",
     "type": "PROCEEDINGS",
-    "type_label": "Other",
+    "type_label": "Conference proceedings",
     "uri": "https://inria.hal.science/hal-03671850v1",
     "venue": "Lecture Notes in Computer Science, vol. 12965, Springer",
     "year": "2021"
@@ -1034,11 +1034,11 @@
   {
     "authors": "N. Burgos, D. Svoboda, J.-M. Wolterink, C. Zhao",
     "doi": "10.1007/978-3-030-59520-3",
-    "section_label": "Other",
+    "section_label": "Conference proceedings",
     "submitted": "2020-11-17 09:51:45",
     "title": "Simulation and Synthesis in Medical Imaging",
     "type": "PROCEEDINGS",
-    "type_label": "Other",
+    "type_label": "Conference proceedings",
     "uri": "https://inria.hal.science/hal-03009047v1",
     "venue": "Lecture Notes in Computer Science, vol. 12417, Springer",
     "year": "2020"
@@ -1130,11 +1130,11 @@
   {
     "authors": "N. Burgos, A. Gooya, D. Svoboda",
     "doi": "10.1007/978-3-030-32778-1",
-    "section_label": "Other",
+    "section_label": "Conference proceedings",
     "submitted": "2019-12-20 18:22:03",
     "title": "Simulation and Synthesis in Medical Imaging",
     "type": "PROCEEDINGS",
-    "type_label": "Other",
+    "type_label": "Conference proceedings",
     "uri": "https://inria.hal.science/hal-02422136v1",
     "venue": "Lecture Notes in Computer Science, vol. 11827, Springer",
     "year": "2019"
@@ -1250,11 +1250,11 @@
   {
     "authors": "A. Gooya, O. Goksel, I. Oguz, N. Burgos",
     "doi": "10.1007/978-3-030-00536-8",
-    "section_label": "Other",
+    "section_label": "Conference proceedings",
     "submitted": "2019-12-20 18:27:27",
     "title": "Simulation and Synthesis in Medical Imaging",
     "type": "PROCEEDINGS",
-    "type_label": "Other",
+    "type_label": "Conference proceedings",
     "uri": "https://inria.hal.science/hal-02422138v1",
     "venue": "Lecture Notes in Computer Science, vol. 11037, Springer",
     "year": "2018"
