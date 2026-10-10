@@ -50,4 +50,37 @@
       media.addListener(update);
     }
   }
+  // Publication year filters (publications page)
+  var groups = document.querySelectorAll("details.pub-group");
+  groups.forEach(function (group) {
+    var buttons = group.querySelectorAll(".year-filter");
+    var count = group.querySelector(".pub-count");
+    var totalLabel = null;
+
+    if (count) {
+      totalLabel = count.textContent;
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var year = btn.getAttribute("data-year");
+        buttons.forEach(function (b) {
+          b.classList.toggle("is-active", b === btn);
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+
+        var shown = 0;
+        group.querySelectorAll(".pub").forEach(function (pub) {
+          var match = year === "all" || pub.getAttribute("data-year") === year;
+          pub.hidden = !match;
+          if (match) shown++;
+        });
+
+        if (count && totalLabel) {
+          count.textContent =
+            year === "all" ? totalLabel : shown + " document" + (shown === 1 ? "" : "s");
+        }
+      });
+    });
+  });
 })();

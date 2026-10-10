@@ -23,11 +23,26 @@ permalink: /publications/
 {%- assign counter = 0 -%}
 {%- for group in ordered_groups -%}
 {%- assign counter = counter | plus: 1 -%}
+{%- assign years = "" | split: "" -%}
+{%- for pub in group.items -%}
+  {%- if pub.year -%}
+    {%- unless years contains pub.year -%}
+      {%- assign years = years | push: pub.year -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign years = years | sort | reverse -%}
 <details class="pub-group" {% if counter == 1 %}open{% endif %}>
   <summary class="pub-type-heading">
     <span class="pub-type-title">{{ group.name }}</span>
     <span class="pub-count">{{ group.items | size }} documents</span>
   </summary>
+  <div class="year-filters" role="group" aria-label="Filter {{ group.name }} by year">
+    <button type="button" class="year-filter is-active" data-year="all" aria-pressed="true">All</button>
+    {%- for year in years -%}
+    <button type="button" class="year-filter" data-year="{{ year }}" aria-pressed="false">{{ year }}</button>
+    {%- endfor -%}
+  </div>
   <div class="pub-list">
   {%- for pub in group.items -%}
   {%- include pub.html pub=pub -%}
