@@ -410,11 +410,11 @@
   {
     "authors": "M. Solal, R. Hassanaly, N. Burgos",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Posters",
     "submitted": "2026-01-06 10:17:44",
     "title": "Leveraging healthy population variability in deep learning unsupervised anomaly detection in brain FDG PET",
     "type": "POSTER",
-    "type_label": "Other",
+    "type_label": "Posters",
     "uri": "https://hal.science/hal-05443417v1",
     "venue": "In CURE-ND (Catalyzing a United Response in Europe to Neurodegenerative Diseases) Early Career Researchers Workshop",
     "year": "2024"
@@ -734,11 +734,11 @@
   {
     "authors": "N. Burgos",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Thesis",
     "submitted": "2023-01-16 19:03:34",
     "title": "Individualised, interpretable and reproducible computer-aided diagnosis of dementia: towards application in clinical practice",
     "type": "HDR",
-    "type_label": "Other",
+    "type_label": "Thesis",
     "uri": "https://inria.hal.science/tel-03941953v1",
     "venue": null,
     "year": "2022"
@@ -914,11 +914,11 @@
   {
     "authors": "E. Thibeau-Sutre, M. Diaz, R. Hassanaly, A. Routier, D. Dormont, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Posters",
     "submitted": "2021-11-24 17:03:50",
     "title": "ClinicaDL: an open-source deep learning software for reproducible neuroimaging processing",
     "type": "POSTER",
-    "type_label": "Other",
+    "type_label": "Posters",
     "uri": "https://hal.science/hal-03423072v2",
     "venue": "In 3IA Doctoral Workshop",
     "year": "2021"
@@ -998,11 +998,11 @@
   {
     "authors": "E. Thibeau-Sutre, O. Colliot, D. Dormont, N. Burgos",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Posters",
     "submitted": "2021-10-05 13:38:40",
     "title": "Identification of unlabeled latent subtypes with saliency maps",
     "type": "POSTER",
-    "type_label": "Other",
+    "type_label": "Posters",
     "uri": "https://hal.science/hal-03365788v1",
     "venue": "In ICM welcome days",
     "year": "2020"
@@ -1010,11 +1010,11 @@
   {
     "authors": "E. Thibeau-Sutre, O. Colliot, D. Dormont, N. Burgos",
     "doi": null,
-    "section_label": "Other",
+    "section_label": "Posters",
     "submitted": "2021-10-05 13:34:05",
     "title": "Visualization approach to assess the robustness of neural networks for medical image classification",
     "type": "POSTER",
-    "type_label": "Other",
+    "type_label": "Posters",
     "uri": "https://hal.science/hal-03365775v1",
     "venue": "In ICM days 2019",
     "year": "2020"
