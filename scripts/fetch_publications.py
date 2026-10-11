@@ -133,23 +133,15 @@ def normalize(doc):
 
     if doc_type in ("HDR", "THESES"):
         institution = clean(doc.get("authorityInstitution_s"))
-        defense = clean(doc.get("defenseDate_s"))
-        if institution:
-            venue_parts.append(f"{institution}.")
-        if defense:
-            venue_parts.append(f"Defended on {defense}.")
-        type_label = "Thesis"
-        section_label = "Thesis"
-        title = clean(doc.get("title_s"))
-        if doc_type == "HDR" and title:
-            title = f"{title} — Habilitation thesis (HDR)"
+        thesis_label = "Habilitation thesis (HDR)" if doc_type == "HDR" else "Doctoral thesis"
+        venue_parts.append(f"{thesis_label}, {institution}" if institution else thesis_label)
         return {
-            "title": title,
+            "title": clean(doc.get("title_s")),
             "authors": format_authors(doc),
             "type": doc_type,
-            "type_label": type_label,
-            "section_label": section_label,
-            "venue": " ".join(venue_parts) if venue_parts else None,
+            "type_label": "Thesis",
+            "section_label": "Thesis",
+            "venue": ", ".join(venue_parts) if venue_parts else None,
             "year": year,
             "doi": clean(doc.get("doiId_s")),
             "uri": clean(doc.get("uri_s")),
@@ -230,6 +222,23 @@ def main():
         start += PAGE_SIZE
 
     pubs = [normalize(doc) for doc in docs]
+
+    # Curated record: PhD thesis (not deposited on HAL), shown in the Thesis
+    # section alongside the HDR.
+    phd_thesis = {
+        "title": "Image synthesis for the attenuation correction and analysis of PET/MR data",
+        "authors": "N. Burgos",
+        "type": "PHD",
+        "type_label": "Thesis",
+        "section_label": "Thesis",
+        "venue": "Doctoral thesis, University College London",
+        "year": "2016",
+        "doi": None,
+        "uri": "https://discovery.ucl.ac.uk/id/eprint/1517860/",
+        "submitted": "2016-01-01 00:00:00",
+    }
+    pubs.append(phd_thesis)
+
     # Deterministic order for stable diffs between runs
     pubs.sort(key=lambda p: (p["year"] or "0000", p["submitted"] or "", p["title"] or ""))
     pubs.reverse()
