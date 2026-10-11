@@ -62,7 +62,7 @@ DOCTYPE_LABELS = {
     "SON": "Sounds",
     "MAP": "Maps",
     "REPORT": "Reports",
-    "UNDEFINED": "Other",
+    "UNDEFINED": "Preprints",
 }
 
 
