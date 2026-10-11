@@ -14,7 +14,7 @@
   {
     "authors": "H. Roy, R. Dorent, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-09-11 16:48:55",
     "title": "Unsupervised Brain Anomaly Detection as a Bayesian Inverse Problem with Diffusion Prior",
     "type": "COMM",
@@ -26,7 +26,7 @@
   {
     "authors": "H. Roy, R. Dorent, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-08-07 15:46:30",
     "title": "Spectral correction for unsupervised anomaly detection: application to neuroimaging",
     "type": "COMM",
@@ -38,7 +38,7 @@
   {
     "authors": "M. Dugré, M. Wang, N. Bhagwat, J.-K. Pfarr, A. Macdonald, E. d'Angremont, A. Dai, M. Danyluik, R. Gau, A. Ismaili, A. Jahanpour, N. Jahanshad, A. Joubert, M. Joulot, M. Laansma, S. Mansour, B. Mcpherson, G. Mohammadalinejad, S. Prasad, D. Roper, J. Sanz-Robinson, J. Scarsbrook, A. Stewart, T. Tan, M. Torabi, J. Tu, S. Urchs, E. van Heese, L. Waller, G. Devenyi, M.-M. Chakravarty, S. Bollmann, P. M. Thompson, Y. van der Werf, E. Dickie, N. Burgos, Y. Halchenko, J.-B. Poline",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-07-22 21:24:32",
     "title": "Beyond Tool Development: Building the Nipoppy Pipeline Store, Ecosystem and Community",
     "type": "COMM",
@@ -50,7 +50,7 @@
   {
     "authors": "M. Solal, A. Senellart, N. Burgos, S. Allassonnière",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-07-21 18:04:16",
     "title": "Latent maximum-a-posteriori approach to improve pseudo-healthy reconstruction quality",
     "type": "COMM",
@@ -62,7 +62,7 @@
   {
     "authors": "M. Krause, H. Roy, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-07-20 16:29:48",
     "title": "Synthèse d’images de TEP au FDG pseudo-saines : Recalage par deep learning et fusion d’images comme alternative aux modèles génératifs",
     "type": "COMM",
@@ -74,7 +74,7 @@
   {
     "authors": "M. Krause, H. Roy, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-07-20 16:17:18",
     "title": "Pseudo-healthy FDG PET synthesis: Revisiting a registration and fusion approach with deep learning",
     "type": "COMM",
@@ -86,7 +86,7 @@
   {
     "authors": "A. Senellart, M. Solal, S. Allassonnière, N. Burgos",
     "doi": "10.1109/ISBI61048.2026.11516028",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-06-16 15:43:17",
     "title": "Mitigating the reconstruction-detection trade-off in VAE-based unsupervised anomaly detection",
     "type": "COMM",
@@ -98,7 +98,7 @@
   {
     "authors": "A. Joubert, M. Joulot, N. Gensollen, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-06-02 17:03:12",
     "title": "Benchmarking skull-stripping methods for integration in Clinica",
     "type": "COMM",
@@ -110,7 +110,7 @@
   {
     "authors": "A. Joubert, A. Ismaili, M. Dugré, M. Wang, N. Bhagwat, J.-B. Poline, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-06-02 16:59:51",
     "title": "Integrating Clinica into Nipoppy to Facilitate Reproducible Large-Scale Neuroimaging Studies",
     "type": "COMM",
@@ -122,7 +122,7 @@
   {
     "authors": "A. Joubert, M. Joulot, N. Gensollen, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-06-02 16:49:21",
     "title": "Benchmarking skull-stripping methods for integration in Clinica",
     "type": "COMM",
@@ -134,7 +134,7 @@
   {
     "authors": "A. Joubert, A. Ismaili, M. Dugré, M. Wang, N. Baghwat, J.-B. Poline, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-06-02 16:41:51",
     "title": "Integrating Clinica into Nipoppy to facilitate reproducible large-scale neuroimaging studies",
     "type": "COMM",
@@ -146,7 +146,7 @@
   {
     "authors": "M. Joulot, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-04-13 16:36:17",
     "title": "Comparing Volumetric Consistency of Longitudinal Preprocessing: A Multi-Cohort Test-Retest Study",
     "type": "COMM",
@@ -158,7 +158,7 @@
   {
     "authors": "T. de Varax, C. Brianceau, R. Hassanaly, M. Heffernan, H. Roy, M. Solal, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-04-10 14:28:56",
     "title": "ClinicaDL v2: an open-source Python library for reproducible deep learning in neuroimaging",
     "type": "COMM",
@@ -170,7 +170,7 @@
   {
     "authors": "T. de Varax, C. Brianceau, R. Hassanaly, M. Heffernan, H. Roy, M. Solal, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-04-10 14:18:41",
     "title": "ClinicaDL v2: an open-source Python library for reproducible deep learning in neuroimaging",
     "type": "COMM",
@@ -182,7 +182,7 @@
   {
     "authors": "M. Heffernan, S. Loizillon, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2026-03-25 11:16:02",
     "title": "Study of the quality of clinical routine T1w and FLAIR brain MRI scans in a clinical data warehouse",
     "type": "COMM",
@@ -194,7 +194,7 @@
   {
     "authors": "A. Senellart, M. Solal, S. Allassonnière, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-03-19 09:47:15",
     "title": "Mitiger le compromis entre détection et qualité de reconstruction en détection d'anomalies non-supervisée à partir de VAE",
     "type": "COMM",
@@ -206,7 +206,7 @@
   {
     "authors": "M. Solal, A. Pascaline, N. Burgos",
     "doi": "10.1117/12.3083687",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-02-02 09:52:28",
     "title": "Unsupervised anomaly detection in brain FDG PET with deep generative models: An experimental analysis of model variability and mitigation strategies",
     "type": "COMM",
@@ -218,7 +218,7 @@
   {
     "authors": "M. Heffernan, S. Loizillon, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-01-29 10:15:13",
     "title": "Étude de la qualité des IRM T1 et FLAIR de routine clinique au sein d'un entrepôt de données de santé de l'AP-HP",
     "type": "COMM",
@@ -230,7 +230,7 @@
   {
     "authors": "M. Heffernan, S. Loizillon, S. Ströer, L. Chougar, D. Dormont, O. Colliot, N. Burgos",
     "doi": "10.1117/12.3085566",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-01-29 09:29:28",
     "title": "Assessing the Efficacy of Artefact Synthesis and Transfer Learning for Quality Control in Clinical 3D FLAIR Brain MRI",
     "type": "COMM",
@@ -242,7 +242,7 @@
   {
     "authors": "M. Joulot, O. Colliot, N. Burgos",
     "doi": "10.1117/12.3086037",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2025-11-05 15:56:51",
     "title": "Comparing Longitudinal Preprocessing Pipelines for Brain Volume Consistency in T1-Weighted MRI Test-Retest Scans",
     "type": "COMM",
@@ -254,7 +254,7 @@
   {
     "authors": "H. Roy, R. Dorent, N. Burgos",
     "doi": "10.1007/978-3-032-05472-2_25",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2025-10-20 14:00:06",
     "title": "Unsupervised anomaly detection using Bayesian flow networks: application to brain FDG pet in the context of Alzheimer’s disease",
     "type": "COMM",
@@ -266,7 +266,7 @@
   {
     "authors": "H. Roy, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-08-12 16:51:42",
     "title": "Détection d'anomalies non supervisée avec des Bayesian Flow Network appliquée à la TEP au FDG dans le cadre de la maladie d'Alzheimer",
     "type": "COMM",
@@ -278,7 +278,7 @@
   {
     "authors": "T. de Varax, C. Brianceau, R. Hassanaly, S. Loizillon, H. Roy, M. Solal, N. Gensollen, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-07-23 15:01:30",
     "title": "ClinicaDL : un logiciel open-source pour une utilisation reproductible de l'apprentissage profond en neuroimagerie",
     "type": "COMM",
@@ -302,7 +302,7 @@
   {
     "authors": "M. Solal, R. Hassanaly, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-01-12 18:43:20",
     "title": "Étude de la variabilité des modèles et construction de cartes d'anomalies tenant compte de l'incertitude à l'aide de modèles génératifs profonds non supervisés dans le cadre de la TEP-FDG en 3D du cerveau",
     "type": "COMM",
@@ -338,7 +338,7 @@
   {
     "authors": "M. Heffernan, S. Loizillon, Y. Jacob, A. Maire, L. Chougar, D. Dormont, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2025-05-29 10:19:00",
     "title": "Simulation d'artefacts pour le contrôle automatique de la qualité d'IRM cérébrales FLAIR en routine clinique",
     "type": "COMM",
@@ -386,7 +386,7 @@
   {
     "authors": "M. Solal, R. Hassanaly, N. Burgos",
     "doi": "10.1117/12.2691683",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-01-12 18:42:05",
     "title": "Leveraging healthy population variability in deep learning unsupervised anomaly detection in brain FDG PET",
     "type": "COMM",
@@ -398,7 +398,7 @@
   {
     "authors": "R. Hassanaly, C. Brianceau, M. Solal, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2026-01-06 17:12:40",
     "title": "Evaluation of pseudo-healthy reconstruction for anomaly detection in brain FDG PET",
     "type": "COMM",
@@ -422,7 +422,7 @@
   {
     "authors": "M. Solal, R. Hassanaly, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2026-01-06 10:09:58",
     "title": "Exploitation de la variabilité de la population contrôle pour la détection d'anomalies non supervisée par apprentissage profond en imagerie cérébrale FDG PET",
     "type": "COMM",
@@ -434,7 +434,7 @@
   {
     "authors": "E. Christodoulou, A. Reinke, R. Houhou, P. Kalinowski, S. Erkan, C. Sudre, N. Burgos, S. Boutaj, S. Loizillon, M. Solal, N. Rieke, V. Cheplygina, M. Antonelli, L. Mayer, M. Tizabi, M.-J. Cardoso, A. Simpson, P. Jäger, A. Kopp-Schneider, G. Varoquaux, O. Colliot, L. Maier-Hein",
     "doi": "10.1007/978-3-031-72117-5_12",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2024-10-01 07:59:55",
     "title": "Confidence intervals uncovered: Are we ready for real-world medical imaging AI?",
     "type": "COMM",
@@ -446,7 +446,7 @@
   {
     "authors": "S. Loizillon, S. Mabille, S. Bottani, Y. Jacob, A. Maire, S. Ströer, D. Dormont, O. Colliot, N. Burgos",
     "doi": "10.1117/12.3005781",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2024-08-20 18:20:48",
     "title": "Leveraging noise and contrast simulation for the automatic quality control of routine clinical T1-weighted brain MRI",
     "type": "COMM",
@@ -458,7 +458,7 @@
   {
     "authors": "S. Loizillon, Y. Jacob, A. Maire, D. Dormont, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2024-08-20 18:14:53",
     "title": "Detecting Brain Anomalies in Clinical Routine with the β-VAE: Feasibility Study on Age-Related White Matter Hyperintensities",
     "type": "COMM",
@@ -470,7 +470,7 @@
   {
     "authors": "G. Fu, G. Jiménez, S. Loizillon, L. Chougar, D. Dormont, R. Valabrègue, N. Burgos, S. Lehéricy, D. Racoceanu, O. Colliot",
     "doi": "10.1117/12.2692286",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2024-07-19 18:14:43",
     "title": "The intriguing effect of frequency disentangled learning on medical image segmentation",
     "type": "COMM",
@@ -482,7 +482,7 @@
   {
     "authors": "M. Joulot, N. Gensollen, G. Vaillant, N. Burgos, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — national, without proceedings",
+    "section_label": "National conference abstracts",
     "submitted": "2024-07-18 17:23:24",
     "title": "Clinica, an open-source software to facilitate neuroimaging studies",
     "type": "COMM",
@@ -530,7 +530,7 @@
   {
     "authors": "R. Hassanaly, C. Brianceau, M. Diaz, S. Loizillon, E. Thibeau-Sutre, N. Cassereau, O. Colliot, N. Burgos",
     "doi": "10.1117/12.3006039",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2024-01-26 11:28:04",
     "title": "Recent advances in the open-source ClinicaDL software for reproducible neuroimaging with deep learning",
     "type": "COMM",
@@ -554,7 +554,7 @@
   {
     "authors": "T. Soulier, M. Hamzaoui, M. Sales Pitombeira, D. De Paula Faria, A. Yazdan-Panah, M. Tonietto, C. Leroy, M. Bottlaender, B. Bodini, N. Burgos, N. Ayache, O. Colliot, B. Stankoff",
     "doi": "10.1117/12.3004975",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2023-12-22 18:39:18",
     "title": "Generating PET-derived maps of myelin content from clinical MRI using curricular discriminator training in generative adversarial networks",
     "type": "COMM",
@@ -566,7 +566,7 @@
   {
     "authors": "G. Vaillant, N. Gensollen, M. Joulot, O. El-Rifai, M. Diaz, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2023-11-10 11:24:43",
     "title": "From Nipype to Pydra: a Clinica story",
     "type": "COMM",
@@ -578,7 +578,7 @@
   {
     "authors": "S. Loizillon, O. Colliot, L. Chougar, S. Stroer, Y. Jacob, A. Maire, D. Dormont, N. Burgos",
     "doi": "10.1007/978-3-031-45857-6_9",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2023-11-07 16:19:25",
     "title": "Semi-supervised Domain Adaptation for Automatic Quality Control of FLAIR MRIs in a Clinical Data Warehouse",
     "type": "COMM",
@@ -614,7 +614,7 @@
   {
     "authors": "F. Galati, D. Falcetta, R. Cortese, B. Casolla, F. Prados, N. Burgos, M.-A. Zuluaga",
     "doi": "10.48550/arXiv.2309.06075",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2023-09-13 10:25:59",
     "title": "A2V: A Semi-Supervised Domain Adaptation Framework for Brain Vessel Segmentation via Two-Phase Training Angiography-to-Venography Translation",
     "type": "COMM",
@@ -626,7 +626,7 @@
   {
     "authors": "R. Hassanaly, C. Brianceau, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2023-08-22 15:52:56",
     "title": "Unsupervised anomaly detection in 3D brain FDG PET: A benchmark of 17 VAE-based approaches",
     "type": "COMM",
@@ -674,7 +674,7 @@
   {
     "authors": "R. Hassanaly, S. Bottani, B. Sauty, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2023-03-17 14:53:50",
     "title": "Simulation-based evaluation framework for deep learning unsupervised anomaly detection on brain FDG PET",
     "type": "COMM",
@@ -686,7 +686,7 @@
   {
     "authors": "E. Thibeau-Sutre, J. Wolterink, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2023-02-01 09:08:45",
     "title": "How can data augmentation improve attribution maps for disease subtype explainability?",
     "type": "COMM",
@@ -698,7 +698,7 @@
   {
     "authors": "S. Loizillon, S. Bottani, A. Maire, S. Stroer, D. Dormont, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2022-11-03 12:17:19",
     "title": "Transfer learning from synthetic to routine clinical data for motion artefact detection in brain T1-weighted MRI",
     "type": "COMM",
@@ -722,7 +722,7 @@
   {
     "authors": "E. Thibeau-Sutre, M. Diaz, R. Hassanaly, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2023-11-10 11:55:01",
     "title": "ClinicaDL: an open-source deep learning software for reproducible neuroimaging processing",
     "type": "COMM",
@@ -746,7 +746,7 @@
   {
     "authors": "O. Rifai, M. Diaz Melo, R. Hassanaly, M. Joulot, A. Routier, E. Thibeau-Sutre, G. Vaillant, S. Durrleman​, N. Burgos, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2022-07-20 11:11:53",
     "title": "Advances in the Clinica software platform for clinical neuroimaging studies",
     "type": "COMM",
@@ -842,7 +842,7 @@
   {
     "authors": "E. Thibeau-Sutre, B. Couvy-Duchesne, D. Dormont, O. Colliot, N. Burgos",
     "doi": "10.1109/ISBI52829.2022.9761504",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2022-01-25 11:11:45",
     "title": "MRI field strength predicts Alzheimer's disease: a case example of bias in the ADNI data set",
     "type": "COMM",
@@ -854,7 +854,7 @@
   {
     "authors": "S. Bottani, E. Thibeau-Sutre, A. Maire, S. Ströer, D. Dormont, O. Colliot, N. Burgos",
     "doi": "10.1117/12.2608565",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2021-12-14 10:13:15",
     "title": "Homogenization of brain MRI from a clinical data warehouse using contrast-enhanced to non-contrast-enhanced image translation with U-Net derived models",
     "type": "COMM",
@@ -902,7 +902,7 @@
   {
     "authors": "O. El-Rifai, M. Diaz Melo, R. Hassanaly, M. Joulot, A. Routier, E. Thibeau-Sutre, G. Vaillant, S. Durrleman​, N. Burgos, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2022-01-06 09:27:46",
     "title": "Clinica: an open-source software platform for reproducible clinical neuroscience studies",
     "type": "COMM",
@@ -1070,7 +1070,7 @@
   {
     "authors": "A. Routier, A. Marcoux, M. Diaz Melo, J. Samper-González, A. Wild, A. Guyot, J. Wen, E. Thibeau-Sutre, S. Bottani, S. Durrleman, N. Burgos, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2020-04-21 12:13:56",
     "title": "New longitudinal and deep learning pipelines in the Clinica software platform",
     "type": "COMM",
@@ -1082,7 +1082,7 @@
   {
     "authors": "E. Thibeau-Sutre, O. Colliot, D. Dormont, N. Burgos",
     "doi": "10.1117/12.2548952",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2020-02-07 13:40:11",
     "title": "Visualization approach to assess the robustness of neural networks for medical image classification",
     "type": "COMM",
@@ -1094,7 +1094,7 @@
   {
     "authors": "J. Wen, E. Thibeau-Sutre, J. Samper-Gonzalez, A. Routier, S. Bottani, D. Dormont, S. Durrleman​, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2021-10-05 13:24:24",
     "title": "How serious is data leakage in deep learning studies on Alzheimer’s disease classification?",
     "type": "COMM",
@@ -1106,7 +1106,7 @@
   {
     "authors": "J. Wen​, J. Samper-González​, A. Routier, S. Bottani​, S. Durrleman​, N. Burgos, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2020-12-11 02:46:01",
     "title": "Beware of feature selection bias! Example on Alzheimer's disease classification from diffusion MRI",
     "type": "COMM",
@@ -1118,7 +1118,7 @@
   {
     "authors": "A. Routier, A. Marcoux, M. Diaz Melo, J. Guillon, J. Samper-González, J. Wen, S. Bottani, A. Guyot, E. Thibeau-Sutre, M. Teichmann, M.-O. Habert, S. Durrleman, N. Burgos, O. Colliot",
     "doi": "10.1016/j.neuroimage.2011.09.015",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2020-01-07 14:37:08",
     "title": "New advances in the Clinica software platform for clinical neuroimaging studies",
     "type": "COMM",
@@ -1154,7 +1154,7 @@
   {
     "authors": "M. Ansart, N. Burgos, O. Colliot, D. Dormont, S. Durrleman",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2019-07-31 11:10:07",
     "title": "Prediction of future cognitive scores and dementia onset in Mild Cognitive Impairment patients",
     "type": "COMM",
@@ -1166,7 +1166,7 @@
   {
     "authors": "J. Samper-Gonzalez, N. Burgos, S. Bottani, M.-O. Habert, T. Evgeniou, S. Epelbaum, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2019-05-28 15:05:15",
     "title": "Predicting progression to Alzheimer’s disease from clinical and imaging data: a reproducible study",
     "type": "COMM",
@@ -1178,7 +1178,7 @@
   {
     "authors": "J. Wen​, E. Thibeau--Sutre​, J. Samper-González​, A. Routier, S. Bottani​, D. Dormont​, S. Durrleman, O. Colliot, N. Burgos",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2019-05-21 18:21:28",
     "title": "How serious is data leakage in deep learning studies on Alzheimer's disease classification?",
     "type": "COMM",
@@ -1190,7 +1190,7 @@
   {
     "authors": "I. Koval, A. Marcoux, N. Burgos, S. Allassonnière, O. Colliot, S. Durrleman",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2019-05-20 17:56:08",
     "title": "Deciphering the progression of PET alterations using surface-based spatiotemporal modeling",
     "type": "COMM",
@@ -1202,7 +1202,7 @@
   {
     "authors": "J. Samper-Gonzalez, N. Burgos, S. Bottani, M.-O. Habert, T. Evgeniou, S. Epelbaum, O. Colliot",
     "doi": "10.1117/12.2512430",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2019-02-21 03:51:13",
     "title": "Reproducible evaluation of methods for predicting progression to Alzheimer's disease from clinical and neuroimaging data",
     "type": "COMM",
@@ -1226,7 +1226,7 @@
   {
     "authors": "J. Wen, J. Samper-Gonzalez, S. Bottani, A. Routier, N. Burgos, T. Jacquemont, S. Fontanella, S. Durrleman, A. Bertrand, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2020-12-11 02:57:30",
     "title": "Comparison of DTI Features for the Classification of Alzheimer's Disease: A Reproducible Study",
     "type": "COMM",
@@ -1238,7 +1238,7 @@
   {
     "authors": "J. Wen, J. Samper-Gonzalez, S. Bottani, A. Routier, N. Burgos, T. Jacquemont, S. Fontanella, S. Durrleman, A. Bertrand, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2020-12-11 02:55:19",
     "title": "Using diffusion MRI for classification and prediction of Alzheimer's Disease: a reproducible study",
     "type": "COMM",
@@ -1262,7 +1262,7 @@
   {
     "authors": "J. Samper-Gonzalez, N. Burgos, S. Bottani, M.-O. Habert, T. Evgeniou, S. Epelbaum, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2019-02-21 03:47:48",
     "title": "Three simple ideas for predicting progression to Alzheimer's disease",
     "type": "COMM",
@@ -1322,7 +1322,7 @@
   {
     "authors": "J. Samper-Gonzalez, S. Bottani, N. Burgos, S. Fontanella, P. Lu, A. Marcoux, A. Routier, J. Guillon, M. Bacci, J. Wen, A. Bertrand, H. Bertin, M.-O. Habert, S. Durrleman, T. Evgeniou, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-04-09 12:19:53",
     "title": "Reproducible evaluation of Alzheimer's Disease classification from MRI and PET data",
     "type": "COMM",
@@ -1334,7 +1334,7 @@
   {
     "authors": "A. Routier, J. Guillon, N. Burgos, J. Samper-Gonzalez, J. Wen, S. Fontanella, S. Bottani, T. Jacquemont, A. Marcoux, P. Gori, P. Lu, T. Moreau, M. Bacci, S. Durrleman, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-04-06 15:23:57",
     "title": "Clinica: an open source software platform for reproducible clinical neuroscience studies",
     "type": "COMM",
@@ -1346,7 +1346,7 @@
   {
     "authors": "A. Marcoux, N. Burgos, A. Bertrand, A. Routier, J. Wen, J. Samper-Gonzalez, S. Bottani, S. Durrleman, M.-O. Habert, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-04-03 18:31:13",
     "title": "A pipeline for the analysis of 18F-FDG PET data on the cortical surface and its evaluation on ADNI",
     "type": "COMM",
@@ -1394,7 +1394,7 @@
   {
     "authors": "D.-M. Cash, N. Burgos, M. Modat, J. Dickson, D. Beasley, P. Markiewicz, C.-A. Lane, T. Parker, A. Barnes, D.-L. Thomas, J. Cardoso, I.-B. Malone, T. Veale, D. Wallon, J. Klimova, K. Erlandsson, A. Wong, M. Richards, N.-C. Fox, S. Ourselin, J.-M. Schott",
     "doi": "10.1016/j.jalz.2017.06.2276",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:19",
     "title": "A comparison of techniques for quantifying amyloid burden on a combined PET/MR scanner",
     "type": "COMM",
@@ -1406,7 +1406,7 @@
   {
     "authors": "J.-P. Kieselmann, C.-P. Kamerling, N. Burgos, M.-J. Menten, S. Nill, M.-J. Cardoso, U. Oelfke",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:17",
     "title": "Geometric and Dosimetric Evaluation of Three Atlas-based Segmentation Methods for Head and Neck Cancer Patients on MR Images",
     "type": "COMM",
@@ -1418,7 +1418,7 @@
   {
     "authors": "S.-N. James, T. Parker, C.-A. Lane, D.-M. Cash, A. Wong, A. Barnes, D. Beasley, N. Burgos, J. Cardoso, J. Dickson, J. Klimova, I.-B. Malone, M. Modat, D.-L. Thomas, D. Kuh, S. Ourselin, N.-C. Fox, J.-M. Schott, M. Richards",
     "doi": "10.1016/j.jalz.2017.07.086",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:16",
     "title": "Midlife affective symptoms are associated with lower brain volumes in later life: Evidence from a prospective UK birth cohort",
     "type": "COMM",
@@ -1442,7 +1442,7 @@
   {
     "authors": "C.-J. Scott, J. Jiao, J. Cardoso, A. Melbourne, E. de Vita, D.-L. Thomas, N. Burgos, P. Markiewicz, J.-M. Schott, B.-F. Hutton, S. Ourselin",
     "doi": "10.1007/978-3-319-66185-8_83",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:42:11",
     "title": "Short acquisition time PET quantification using MRI-based pharmacokinetic parameter synthesis",
     "type": "COMM",
@@ -1454,7 +1454,7 @@
   {
     "authors": "J.-M. Schott, D.-M. Cash, C.-A. Lane, T. Parker, N. Burgos, M. Modat, D. Beasley, J. Dickson, A. Barnes, D.-L. Thomas, H. Murray-Smith, A. Wong, K. Macpherson, S.-N. James, J. Cardoso, I.-B. Malone, J. Klimova, P. Markiewicz, S.-J. Crutch, D. Kuh, S. Ourselin, M. Richards, N.-C. Fox",
     "doi": "10.1016/j.jalz.2017.06.1563",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:09",
     "title": "Exploring the population prevalence of β-amyloid burden: An analysis of 250 individuals born in mainland Britain in the same week in 1946",
     "type": "COMM",
@@ -1466,7 +1466,7 @@
   {
     "authors": "T. Parker, D.-M. Cash, C.-A. Lane, H. Murray-Smith, A. Wong, I.-B. Malone, N. Burgos, M. Modat, D. Beasley, J. Dickson, A. Barnes, D.-L. Thomas, J. Cardoso, J. Klimova, S. Ourselin, C. Frost, D. Kuh, M. Richards, N.-C. Fox, J.-M. Schott",
     "doi": "10.1016/j.jalz.2017.07.534",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:07",
     "title": "Brain volume, cerebral β-amyloid deposition, and ageing: A study of over 200 individuals born in the same week in 1946",
     "type": "COMM",
@@ -1478,7 +1478,7 @@
   {
     "authors": "N. Burgos, J. Samper-González, A. Bertrand, M.-O. Habert, S. Ourselin, S. Durrleman, J. Cardoso, O. Colliot",
     "doi": "10.1007/s00259-017-3822-1",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2017-11-10 12:20:20",
     "title": "Diagnosis of Alzheimer’s Disease Through Identification of Abnormality Patterns in FDG PET Data",
     "type": "COMM",
@@ -1490,7 +1490,7 @@
   {
     "authors": "N. Burgos, J. Samper-González, J. Cardoso, S. Durrleman, S. Ourselin, O. Colliot",
     "doi": "10.1016/j.jalz.2017.06.1618",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2017-10-25 10:14:14",
     "title": "Early Diagnosis of Alzheimer’s Disease Using Subject-Specific Models of FDG-PET Data",
     "type": "COMM",
@@ -1502,7 +1502,7 @@
   {
     "authors": "J. Samper-Gonzalez, N. Burgos, S. Fontanella, H. Bertin, M.-O. Habert, S. Durrleman, T. Evgeniou, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2017-08-29 11:49:20",
     "title": "Yet Another ADNI Machine Learning Paper? Paving The Way Towards Fully-reproducible Research on Classification of Alzheimer's Disease",
     "type": "COMM",
@@ -1514,7 +1514,7 @@
   {
     "authors": "N. Burgos, J. Samper-González, A. Bertrand, M.-O. Habert, S. Ourselin, S. Durrleman, J. Cardoso, O. Colliot",
     "doi": null,
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2017-07-22 19:09:34",
     "title": "Individual Analysis of Molecular Brain Imaging Data Through Automatic Identification of Abnormality Patterns",
     "type": "COMM",
@@ -1538,7 +1538,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, F. Guerreiro, J. Mcclelland, A.-C. Knopf, S. Punwani, S. Ourselin",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:44:57",
     "title": "CT synthesis in the head & neck and pelvic regions for radiotherapy treatment planning",
     "type": "COMM",
@@ -1550,7 +1550,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, F. Guerreiro, J. Mcclelland, A.-C. Knopf, S. Ourselin",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:36",
     "title": "Simultaneous organ-at-risk segmentation and CT synthesis in the pelvic region for MRI-only radiotherapy treatment planning",
     "type": "COMM",
@@ -1562,7 +1562,7 @@
   {
     "authors": "C.-N. Ladefoged, I. Law, U. Anazodo, D. Izquierdo-Garcia, N. Burgos, I. Mérida, D. Benoit, M. Juttukonda, J. Cabello, M. Fenchel, B. Jakoby, L. Højgaard, A.-E. Hansen, F.-L. Andersen",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:35",
     "title": "A multi-method, multi-center study of PET/MRI brain attenuation correction on a large cohort of [18F]- FDG patients: ready for clinical implementation",
     "type": "COMM",
@@ -1586,7 +1586,7 @@
   {
     "authors": "N. Burgos, F. Guerreiro, J. Mcclelland, S. Nill, D. Dearnaley, N. Desouza, U. Oelfke, A.-C. Knopf, S. Ourselin, J. Cardoso",
     "doi": "10.1007/978-3-319-46723-8_63",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:42:32",
     "title": "Joint segmentation and CT synthesis for MRI-only radiotherapy treatment planning",
     "type": "COMM",
@@ -1598,7 +1598,7 @@
   {
     "authors": "T. Sekine, N. Burgos, G. Warnock, M. Huellner, A. Buck, E.-E.-G.-W.-T. Voert, J. Cardoso, B.-F. Hutton, S. Ourselin, P. Veit-Haibach, G. Delso",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:30",
     "title": "Multi atlas-based attenuation correction for brain FDG- PET imaging using a TOF-PET/MR scanner: Comparison with clinical single atlas- and CT-based attenuation correction",
     "type": "COMM",
@@ -1610,7 +1610,7 @@
   {
     "authors": "C.-N. Ladefoged, I. Law, U. Anazodo, K. St. Lawrence, D. Izquierdo-Garcia, C. Catana, N. Burgos, J. Cardoso, B. Hutton, S. Ourselin, I. Mérida, N. Costes, A. Hammers, D. Benoit, S. Holm, M. Juttukonda, H. An, J. Cabello, M. Lukas, S. Nekolla, S. Ziegler, M. Fenchel, B. Jakoby, M.-E. Casey, T. Benzinger, L. Højgaard, A.-E. Hansen, F.-L. Andersen",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:29",
     "title": "A multi-centre evaluation of eleven clinically feasible brain PET/MRI attenuation correction techniques using a large cohort of patients",
     "type": "COMM",
@@ -1622,7 +1622,7 @@
   {
     "authors": "F. Prados Carrasco, M.-J. Cardoso, N. Burgos, C.-A.-M. Wheeler-Kingshott, S. Ourselin",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:28",
     "title": "NiftyWeb: web based platform for image processing on the cloud",
     "type": "COMM",
@@ -1634,7 +1634,7 @@
   {
     "authors": "M.-A. Zuluaga, N. Burgos, A.-M. Taylor, S. Ourselin",
     "doi": "10.1109/ISBI.2015.7163870",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2021-03-27 10:21:50",
     "title": "Multi-atlas synthesis for computer assisted diagnosis: Application to cardiovascular diseases",
     "type": "COMM",
@@ -1682,7 +1682,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, M. Modat, S. Punwani, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1186/2197-7364-2-S1-A31",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:51",
     "title": "CT synthesis in the head & neck region for PET/MR attenuation correction: an iterative multi-atlas approach",
     "type": "COMM",
@@ -1706,7 +1706,7 @@
   {
     "authors": "J. Jiao, P. Markiewicz, N. Burgos, D. Atkinson, B. Hutton, S. Arridge, S. Ourselin",
     "doi": "10.1007/978-3-319-19992-4_42",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:42:46",
     "title": "Detail-preserving PET reconstruction with sparse image representation and anatomical priors",
     "type": "COMM",
@@ -1718,7 +1718,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, F. Guerreiro, C. Veiga, M. Modat, J. Mcclelland, A.-C. Knopf, S. Punwani, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1007/978-3-319-24571-3_57",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:42:44",
     "title": "Robust CT synthesis for radiotherapy planning: Application to the head & neck region",
     "type": "COMM",
@@ -1730,7 +1730,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, A.-F. Mendelson, J.-M. Schott, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1007/978-3-319-24571-3_78",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:42:42",
     "title": "Subject-specific models for the analysis of pathological FDG PET data",
     "type": "COMM",
@@ -1742,7 +1742,7 @@
   {
     "authors": "A. Mota, V. Cuplov, J. Schott, B. Hutton, K. Thielemans, I. Drobnjak, J. Dickson, J. Bert, N. Burgos, J. Cardoso, M. Modat, S. Ourselin, K. Erlandsson",
     "doi": "10.1186/2197-7364-2-S1-A44",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:40",
     "title": "Establishment of an open database of realistic simulated data for evaluation of partial volume correction techniques in brain PET/MR",
     "type": "COMM",
@@ -1754,7 +1754,7 @@
   {
     "authors": "F. Guerreiro, J. Mcclelland, N. Burgos, M.-J. Cardoso, A. Dunlop, K. Wong, S. Nill, U. Oelfke, A.-C. Knopf",
     "doi": null,
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:39",
     "title": "Evaluation of different approaches to obtain synthetic CT images for a MRI-only radiotherapy workflow",
     "type": "COMM",
@@ -1766,7 +1766,7 @@
   {
     "authors": "J.-C. Dickson, K. Erlandsson, M. Lehmann, M. Modat, N. Burgos, A. Groves, J. Schott",
     "doi": "10.1007/s00259-015-3198-z",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:42:37",
     "title": "Partial Volume Correction of Amyvid and FDG PET data using the discrete iterative Yang technique",
     "type": "COMM",
@@ -1778,7 +1778,7 @@
   {
     "authors": "N. Burgos, J. Cardoso, K. Thielemans, J.-S. Duncan, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1186/2197-7364-1-S1-A52",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:43:13",
     "title": "Attenuation correction synthesis for hybrid PET-MR scanners: validation for brain study applications",
     "type": "COMM",
@@ -1790,7 +1790,7 @@
   {
     "authors": "M. Kochan, P. Daga, N. Burgos, M. White, J. Cardoso, L. Mancini, G.-P. Winston, A.-W. Mcevoy, J. Thornton, T. Yousry, J.-S. Duncan, D. Stoyanov, S. Ourselin",
     "doi": "10.1007/978-3-319-07521-1_24",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:43:11",
     "title": "Simulated field maps: Toward improved susceptibility artefact correction in interventional MRI",
     "type": "COMM",
@@ -1802,7 +1802,7 @@
   {
     "authors": "N. Burgos, K. Thielemans, M.-J. Cardoso, P. Markiewicz, J. Jiao, J. Dickson, J.-S. Duncan, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1109/NSSMIC.2014.7430775",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:43:09",
     "title": "Effect of scatter correction when comparing attenuation maps: Application to brain PET/MR",
     "type": "COMM",
@@ -1814,7 +1814,7 @@
   {
     "authors": "P. Markiewicz, K. Thielemans, N. Burgos, R. Manber, J. Jiao, A. Barnes, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1186/2197-7364-1-S1-A44",
-    "section_label": "Conference papers — international, without proceedings",
+    "section_label": "International conference abstracts",
     "submitted": "2018-07-01 22:43:07",
     "title": "Image reconstruction of mMR PET data using the open source software STIR",
     "type": "COMM",
@@ -1826,7 +1826,7 @@
   {
     "authors": "J. Jiao, A. Bousse, K. Thielemans, P. Markiewicz, N. Burgos, D. Atkinson, S. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1007/978-3-319-10404-1_15",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:43:04",
     "title": "Joint parametric reconstruction and motion correction framework for dynamic PET data",
     "type": "COMM",
@@ -1850,7 +1850,7 @@
   {
     "authors": "N. Burgos, M.-J. Cardoso, M. Modat, S. Pedemonte, J. Dickson, A. Barnes, J.-S. Duncan, D. Atkinson, S.-R. Arridge, B.-F. Hutton, S. Ourselin",
     "doi": "10.1007/978-3-642-40811-3_19",
-    "section_label": "Conference papers — international, with proceedings",
+    "section_label": "International conferences with full-length peer-reviewed proceedings",
     "submitted": "2018-07-01 22:43:15",
     "title": "Attenuation correction synthesis for hybrid PET-MR scanners",
     "type": "COMM",

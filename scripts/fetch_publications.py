@@ -152,9 +152,18 @@ def normalize(doc):
     if doc_type == "COMM":
         audience = clean(doc.get("audience_s"))
         proceedings = clean(doc.get("proceedings_s"))
-        scope = "national" if audience == "3" else "international"
-        proc = "with proceedings" if proceedings == "1" else "without proceedings"
-        section_label = f"Conference papers — {scope}, {proc}"
+        if audience == "3":
+            section_label = (
+                "National conference abstracts"
+                if proceedings != "1"
+                else "National conferences with full-length peer-reviewed proceedings"
+            )
+        else:
+            section_label = (
+                "International conferences with full-length peer-reviewed proceedings"
+                if proceedings == "1"
+                else "International conference abstracts"
+            )
 
     return {
         "title": clean(doc.get("title_s")),

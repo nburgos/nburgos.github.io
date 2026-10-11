@@ -12,7 +12,7 @@ permalink: /publications/
 {%- assign pubs = site.data.publications -%}
 {%- assign groups = pubs | group_by: "section_label" -%}
 {%- assign ordered_groups = "" | split: "" -%}
-{%- assign order = "Journal articles|Conference papers — international, with proceedings|Conference papers — international, without proceedings|Conference papers — national, without proceedings|Conference papers — national, with proceedings|Conference proceedings|Book chapters|Books|Posters|Thesis|Other" | split: "|" -%}
+{%- assign order = "Journal articles|International conferences with full-length peer-reviewed proceedings|International conference abstracts|National conference abstracts|National conferences with full-length peer-reviewed proceedings|Conference proceedings|Book chapters|Books|Posters|Thesis|Other" | split: "|" -%}
 {%- for label in order -%}
   {%- for group in groups -%}
     {%- if group.name == label -%}
