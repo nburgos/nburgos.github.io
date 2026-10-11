@@ -29,6 +29,8 @@ FIELDS = ",".join(
         "docType_s",
         "audience_s",
         "proceedings_s",
+        "defenseDate_s",
+        "authorityInstitution_s",
         "publicationDate_s",
         "producedDate_s",
         "journalTitle_s",
@@ -125,6 +127,34 @@ def normalize(doc):
     volume = clean(doc.get("volume_s"))
     issue = clean(doc.get("issue_s"))
     pages = clean(doc.get("page_s"))
+    doc_type = clean(doc.get("docType_s"))
+    pub_date = clean(doc.get("publicationDate_s"))
+    year = pub_date[:4] if pub_date else None
+
+    if doc_type in ("HDR", "THESES"):
+        institution = clean(doc.get("authorityInstitution_s"))
+        defense = clean(doc.get("defenseDate_s"))
+        if institution:
+            venue_parts.append(f"{institution}.")
+        if defense:
+            venue_parts.append(f"Defended on {defense}.")
+        type_label = "Thesis"
+        section_label = "Thesis"
+        title = clean(doc.get("title_s"))
+        if doc_type == "HDR" and title:
+            title = f"{title} — Habilitation thesis (HDR)"
+        return {
+            "title": title,
+            "authors": format_authors(doc),
+            "type": doc_type,
+            "type_label": type_label,
+            "section_label": section_label,
+            "venue": " ".join(venue_parts) if venue_parts else None,
+            "year": year,
+            "doi": clean(doc.get("doiId_s")),
+            "uri": clean(doc.get("uri_s")),
+            "submitted": clean(doc.get("submittedDate_s")),
+        }
 
     if journal:
         venue_parts.append(journal)
@@ -143,10 +173,6 @@ def normalize(doc):
     if publisher:
         venue_parts.append(publisher)
 
-    pub_date = clean(doc.get("publicationDate_s"))
-    year = pub_date[:4] if pub_date else None
-
-    doc_type = clean(doc.get("docType_s"))
     type_label = DOCTYPE_LABELS.get(doc_type, "Other")
     section_label = type_label
     if doc_type == "COMM":

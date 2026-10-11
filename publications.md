@@ -51,6 +51,8 @@ permalink: /publications/
 </details>
 {%- endfor -%}
 
+{% include phd-thesis.html %}
+
 <p class="bibtex-note">
   All publications are also available in
   <a href="{{ site.bibtex_url }}" target="_blank" rel="noopener">BibTeX format</a>
