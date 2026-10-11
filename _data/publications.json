@@ -734,11 +734,11 @@
   {
     "authors": "N. Burgos",
     "doi": null,
-    "section_label": "Thesis",
+    "section_label": "Theses",
     "submitted": "2023-01-16 19:03:34",
     "title": "Individualised, interpretable and reproducible computer-aided diagnosis of dementia: towards application in clinical practice",
     "type": "HDR",
-    "type_label": "Thesis",
+    "type_label": "Theses",
     "uri": "https://inria.hal.science/tel-03941953v1",
     "venue": "Habilitation thesis (HDR), Sorbonne Université",
     "year": "2022"
@@ -1634,11 +1634,11 @@
   {
     "authors": "N. Burgos",
     "doi": null,
-    "section_label": "Thesis",
+    "section_label": "Theses",
     "submitted": "2016-01-01 00:00:00",
     "title": "Image synthesis for the attenuation correction and analysis of PET/MR data",
     "type": "PHD",
-    "type_label": "Thesis",
+    "type_label": "Theses",
     "uri": "https://discovery.ucl.ac.uk/id/eprint/1517860/",
     "venue": "Doctoral thesis, University College London",
     "year": "2016"
