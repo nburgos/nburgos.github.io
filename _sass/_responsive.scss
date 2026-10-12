@@ -77,6 +77,76 @@
     padding: 0.7rem 0.5rem;
   }
 
+  // Submenu inside hamburger menu: expand inline below the parent row
+  .has-children {
+    flex-wrap: wrap;
+  }
+
+  .has-children > a {
+    flex: 1;
+  }
+
+  .nav-chevron {
+    margin-left: 0;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .nav-chevron svg {
+    transition: transform 0.2s ease;
+  }
+
+  .has-children.open .nav-chevron svg {
+    transform: rotate(180deg);
+  }
+
+  .nav-sublist {
+    position: static;
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0.25rem 1.25rem;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .has-children.open .nav-sublist {
+    display: block;
+  }
+
+  // Hover/focus-within opening rules do not apply on touch/mobile
+  .has-children:hover .nav-sublist,
+  .has-children:focus-within .nav-sublist {
+    display: none;
+  }
+
+  .has-children.open:hover .nav-sublist,
+  .has-children.open:focus-within .nav-sublist {
+    display: block;
+  }
+
+  .nav-sublist a {
+    color: var(--accent);
+    font-size: 0.95rem;
+    min-height: 44px;
+  }
+
+  .nav-sublist a.active {
+    background: var(--surface);
+  }
+
+  .nav-group-label {
+    color: var(--text-muted);
+    padding-top: 0.4rem;
+  }
+
+  .nav-group-label:not(:first-child) {
+    border-top: none;
+    margin-top: 0.15rem;
+  }
+
   // Bio: photo stacks above the text
   .about {
     flex-direction: column;

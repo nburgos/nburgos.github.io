@@ -9,9 +9,34 @@
       </button>
       <ul id="site-nav-list" class="nav-list">
         {%- for item in site.nav -%}
-        <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active" aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {%- if item.children -%}
+        {%- assign in_section = false -%}
+        {%- for child_group in item.children -%}
+          {%- for child in child_group.items -%}
+            {%- if page.url == child.url %}{%- assign in_section = true -%}{%- endif -%}
+          {%- endfor -%}
         {%- endfor -%}
-        <li><a href="https://www.aramislab.fr" target="_blank" rel="noopener">ARAMIS Lab</a></li>
+        <li class="nav-item has-children">
+          <a href="{{ item.url | relative_url }}" {% if page.url == item.url or in_section %}class="active"{% endif %}{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+          <button class="nav-chevron" aria-expanded="false" aria-haspopup="true" aria-label="Toggle {{ item.label }} submenu">
+            <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <ul class="nav-sublist">
+            {%- for child_group in item.children -%}
+            <li class="nav-group-label" aria-hidden="true">{{ child_group.group }}</li>
+            {%- for child in child_group.items -%}
+            <li><a href="{{ child.url | relative_url }}" {% if page.url == child.url %}class="active" aria-current="page"{% endif %}>{{ child.label }}</a></li>
+            {%- endfor -%}
+            {%- endfor -%}
+          </ul>
+        </li>
+        {%- else -%}
+        <li class="nav-item"><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active" aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {%- endif -%}
+        {%- endfor -%}
+        <li class="nav-item"><a href="https://www.aramislab.fr" target="_blank" rel="noopener">ARAMIS Lab</a></li>
       </ul>
     </nav>
     <button class="theme-toggle" aria-label="Toggle colour theme" title="Toggle light / dark theme">

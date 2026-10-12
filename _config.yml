@@ -31,6 +31,21 @@ nav:
     url: /
   - label: Research projects
     url: /research-projects/
+    children:
+      - group: Ongoing
+        items:
+          - label: Anomaly detection in brain PET
+            url: /research-projects/deep-generative-models-for-the-detection-of-anomalies-in-brain-pet-images/
+          - label: ML for clinical data warehouses
+            url: /research-projects/ml-neuroimaging-cdw/
+      - group: Past
+        items:
+          - label: "PhD: Atlas-based image synthesis"
+            url: /research-projects/phd/
+          - label: "Postdoc: Joint segmentation & synthesis"
+            url: /research-projects/postdoc-mrrtp/
+          - label: "Postdoc: Individual analysis of PET"
+            url: /research-projects/postdoc-abnormalitymaps/
   - label: Publications
     url: /publications/
   - label: Software

@@ -32,6 +32,40 @@
     });
   }
 
+  // Submenu chevrons (research projects)
+  document.querySelectorAll(".nav-chevron").forEach(function (btn) {
+    var item = btn.closest(".has-children");
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = item.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+
+  // Escape closes an open submenu; outside click closes it too
+  document.addEventListener("click", function (e) {
+    document.querySelectorAll(".has-children.open").forEach(function (item) {
+      if (!item.contains(e.target)) {
+        item.classList.remove("open");
+        var btn = item.querySelector(".nav-chevron");
+        if (btn) btn.setAttribute("aria-expanded", "false");
+      }
+    });
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      document.querySelectorAll(".has-children.open").forEach(function (item) {
+        item.classList.remove("open");
+        var btn = item.querySelector(".nav-chevron");
+        if (btn) {
+          btn.setAttribute("aria-expanded", "false");
+          btn.focus();
+        }
+      });
+    }
+  });
+
   // Follow OS theme changes unless the user made an explicit choice
   var media = window.matchMedia("(prefers-color-scheme: dark)");
   var stored = null;

@@ -72,6 +72,102 @@ main {
   box-shadow: inset 0 -3px 0 var(--accent);
 }
 
+// ---------- Submenu (desktop) ----------
+.has-children {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-chevron {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem;
+  margin-left: -0.5rem;
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  min-height: 28px;
+  border-radius: 4px;
+}
+
+.nav-chevron:hover {
+  color: var(--accent);
+  background: var(--surface);
+}
+
+.nav-chevron svg {
+  transition: transform 0.2s ease;
+}
+
+.has-children:hover .nav-chevron svg,
+.has-children:focus-within .nav-chevron svg {
+  transform: rotate(180deg);
+}
+
+.nav-sublist {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 20;
+  min-width: 16rem;
+  margin: 0.25rem 0 0;
+  padding: 0.5rem;
+  list-style: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+}
+
+// Open on hover and keyboard focus
+.has-children:hover .nav-sublist,
+.has-children:focus-within .nav-sublist,
+.has-children.open .nav-sublist {
+  display: block;
+}
+
+.nav-sublist a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  color: var(--text);
+  font-weight: 500;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-sublist a:hover {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+.nav-sublist a.active {
+  color: var(--accent);
+  box-shadow: none;
+  background: var(--surface);
+}
+
+.nav-group-label {
+  padding: 0.5rem 0.75rem 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.nav-group-label:not(:first-child) {
+  margin-top: 0.35rem;
+  border-top: 1px solid var(--border);
+}
+
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);
