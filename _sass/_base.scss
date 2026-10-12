@@ -15,6 +15,9 @@ body {
   color: var(--text);
   background: var(--bg);
   transition: background-color 0.25s ease, color 0.25s ease;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -106,6 +109,17 @@ blockquote {
   border-left: 4px solid var(--accent);
   background: var(--surface);
   border-radius: 0 4px 4px 0;
+}
+
+// Keep UI elements left-aligned despite body-wide justification
+.site-header,
+.site-footer,
+.pub-links,
+.pub-meta,
+.latest-pubs-more,
+figure,
+figcaption {
+  text-align: left;
 }
 
 table {
