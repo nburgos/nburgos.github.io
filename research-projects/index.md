@@ -11,6 +11,7 @@ permalink: /research-projects/
 <ul>
   <li><a href="{{ '/research-projects/deep-generative-models-for-the-detection-of-anomalies-in-brain-pet-images/' | relative_url }}">Deep generative models for the detection of anomalies in brain PET images</a></li>
   <li><a href="{{ '/research-projects/ml-neuroimaging-cdw/' | relative_url }}">Machine learning to exploit neuroimages in clinical data warehouses</a></li>
+  <li><a href="{{ '/research-projects/benchmarking-longitudinal-neuroimaging-processing-pipelines/' | relative_url }}">Benchmarking longitudinal neuroimaging processing pipelines</a></li>
 </ul>
 </section>
 

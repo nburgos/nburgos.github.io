@@ -38,6 +38,8 @@ nav:
             url: /research-projects/deep-generative-models-for-the-detection-of-anomalies-in-brain-pet-images/
           - label: ML for clinical data warehouses
             url: /research-projects/ml-neuroimaging-cdw/
+          - label: Longitudinal pipeline benchmarking
+            url: /research-projects/benchmarking-longitudinal-neuroimaging-processing-pipelines/
       - group: Past
         items:
           - label: "PhD: Atlas-based image synthesis"
