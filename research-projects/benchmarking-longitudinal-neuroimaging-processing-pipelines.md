@@ -6,7 +6,7 @@ permalink: /research-projects/benchmarking-longitudinal-neuroimaging-processing-
 
 When studying neurodegenerative diseases, which progress with time, imaging, biological and neuropsychological data are acquired at multiple time points, since a single time point may not sufficiently characterise the state of a patient. Longitudinal image processing methods are thus necessary to properly handle such data and extract biomarkers that are sensitive to temporal change. However, there is no clear consensus on how to do so: approaches range from treating each time point independently, to extracting biomarkers cross-sectionally before analysing them longitudinally, to performing a genuinely longitudinal processing of the images themselves. This last approach remains the least standardised and has mainly been applied to T1-weighted MRI (see figure below).
 
-<figure>
+<figure class="figure-medium">
 <img src="{{ '/files/longitudinal-processing.png' | relative_url }}" alt="Prototypical longitudinal processing pipeline">
 <figcaption>Prototypical example of a longitudinal processing pipeline. An unbiased subject-specific template is first created using an inverse consistent registration approach and each input scan is subsequently registered to it. A cross-sectional segmentation method is then applied to the template, and the estimated parameters are used to initialise the segmentation for each time point (TP).</figcaption>
 </figure>

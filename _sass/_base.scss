@@ -77,6 +77,13 @@ figure {
   margin: 1.5rem 0;
 }
 
+// Constrain tall/near-square figures so they don't fill the whole column
+figure.figure-medium {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 figcaption {
   font-size: 0.9rem;
   color: var(--text-muted);
