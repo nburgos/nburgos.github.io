@@ -4,7 +4,8 @@ title: Software
 permalink: /software/
 ---
 
-## Clinica
+<details class="software-group" open>
+<summary class="software-heading"><span class="software-title">Clinica</span></summary>
 
 [Clinica](https://www.clinica.run) is an open source software platform for neuroimaging studies. It aims to make neuroimaging research easier and more reproducible, enabling researchers to spend less time on data management and processing, perform reproducible evaluations of their methods, and easily share data and results within their institution and with external collaborators.
 
@@ -19,8 +20,10 @@ I lead the development of the project and manage the developers.
 - Marcoux, A., Burgos, N., Bertrand, A., Teichmann, M., Routier, A., Wen, J., Samper-Gonzalez, J., Bottani, S., Durrleman, S., Habert, M.-O., and Colliot, O.: **An Automated Pipeline for the Analysis of PET Data on the Cortical Surface**. *Frontiers in Neuroinformatics*, 12, 2018. [doi:10.3389/fninf.2018.00094](https://doi.org/10.3389/fninf.2018.00094)
 - OHBM [2018](https://hal.science/hal-01760658), [2019](https://hal.science/hal-02132147), [2020](https://hal.science/hal-02549242), [2022](https://hal.science/hal-03728243), [2023](https://hal.science/hal-04278898), [2026a](https://hal.science/hal-05641657), [2026b](https://hal.science/hal-05641717)
 
-## ClinicaDL
+</details>
 
+<details class="software-group" open>
+<summary class="software-heading"><span class="software-title">ClinicaDL</span></summary>
 
 [ClinicaDL](https://clinicadl.readthedocs.io) is an open source software platform that aims to enhance the reproducibility and rigour of research on deep learning applied to neuroimaging. Neuroimaging data have specific characteristics: they are three-dimensional, carry physical information such as voxel spacing, and are often longitudinal, which limits the direct use of standard deep learning frameworks. General-purpose medical imaging frameworks such as MONAI address some of these constraints, but lack integration with neuroimaging-specific data standards and preprocessing pipelines. ClinicaDL fills this gap by natively integrating with the brain imaging data structure (BIDS) and neuroimaging preprocessing pipelines, so it can be used with a large variety of neuroimaging datasets.
 
@@ -35,7 +38,10 @@ I lead the development of the project and manage the developers.
 - Thibeau-Sutre, E., Diaz, M., Hassanaly, R., Routier, A., Dormont, D., Colliot, O., and Burgos, N.: **ClinicaDL: An Open-Source Deep Learning Software for Reproducible Neuroimaging Processing**. *Computer Methods and Programs in Biomedicine*, 220: 106818, 2022. [doi:10.1016/j.cmpb.2022.106818](https://doi.org/10.1016/j.cmpb.2022.106818) <a class="pub-link" href="https://hal.science/hal-03351976" target="_blank" rel="noopener">HAL</a>
 - [OHBM 2022](https://hal.science/hal-04279014), [SPIE Medical Imaging 2024](https://hal.science/hal-04419141), [OHBM 2026](https://hal.science/hal-05587597)
 
-## AD-ML / AD-DL
+</details>
+
+<details class="software-group" open>
+<summary class="software-heading"><span class="software-title">AD-ML / AD-DL</span></summary>
 
 AD-ML and AD-DL are frameworks for the reproducible evaluation of machine learning and deep learning classification experiments using neuroimaging for the computer-aided diagnosis of Alzheimer's disease (AD) that rely on [Clinica](https://www.clinica.run).
 
@@ -50,7 +56,10 @@ AD-ML and AD-DL are frameworks for the reproducible evaluation of machine learni
 - [GitHub](https://github.com/aramis-lab/ad-dl)
 - Wen, J., Thibeau-Sutre, E., Diaz-Melo, M., Samper-González, J., Routier, A., Bottani, S., Dormont, D., Durrleman, S., Burgos, N., and Colliot, O.: **Convolutional Neural Networks for Classification of Alzheimer's Disease: Overview and Reproducible Evaluation**. *Medical Image Analysis*, 63: 101694, 2020. [doi:10.1016/j.media.2020.101694](https://doi.org/10.1016/j.media.2020.101694) <a class="pub-link" href="https://hal.science/hal-02562504" target="_blank" rel="noopener">HAL</a>
 
-## NiftyWeb
+</details>
+
+<details class="software-group" open>
+<summary class="software-heading"><span class="software-title">NiftyWeb</span></summary>
 
 [NiftyWeb](http://niftyweb.cs.ucl.ac.uk/index.php) is a web service tool developed at UCL that provides an entry point to cutting edge medical image analysis algorithms. NiftyWeb has a friendly interface and allows anyone to test or use the algorithms with minimal effort and with their optimal configurations. The website currently runs on a distributed network, where different nodes are responsible for specific algorithms.
 
@@ -60,6 +69,11 @@ I contributed to the creation of the [pCT web service tool](http://niftyweb.cs.u
 
 - Prados Carrasco, F., Cardoso, M.J., Burgos, N., Wheeler-Kingshott, C.A.M., and Ourselin, S.: **NiftyWeb: Web Based Platform for Image Processing on the Cloud**. In *Proceedings of the 24th Scientific Meeting and Exhibition of the International Society for Magnetic Resonance in Medicine (ISMRM)*, 2016. <a class="pub-link" href="https://hal.science/hal-01827198" target="_blank" rel="noopener">HAL</a>
 
-## NiftySeg
+</details>
+
+<details class="software-group" open>
+<summary class="software-heading"><span class="software-title">NiftySeg</span></summary>
 
 [NiftySeg](https://github.com/KCL-BMEIS/NiftySeg) is an open source image segmentation and parcellation software. I contributed to the creation of novel algorithms for image synthesis based on a multi-atlas propagation and fusion technique. My contribution mainly focused on the fusion part of the approach, where the propagated atlases are combined locally by computing for each voxel a local similarity measure between each deformed atlas and the target subject.
+
+</details>
