@@ -4,7 +4,7 @@ title: Software
 permalink: /software/
 ---
 
-<details class="software-group" open>
+<details class="software-group" open markdown="1">
 <summary class="software-heading"><span class="software-title">Clinica</span></summary>
 
 <p class="software-links">
@@ -26,7 +26,7 @@ I lead the development of the project and manage the developers.
 
 </details>
 
-<details class="software-group" open>
+<details class="software-group" open markdown="1">
 <summary class="software-heading"><span class="software-title">ClinicaDL</span></summary>
 
 <p class="software-links">
@@ -48,7 +48,7 @@ I lead the development of the project and manage the developers.
 
 </details>
 
-<details class="software-group" open>
+<details class="software-group" open markdown="1">
 <summary class="software-heading"><span class="software-title">AD-ML / AD-DL</span></summary>
 
 <p class="software-links">
@@ -69,7 +69,7 @@ AD-ML and AD-DL are frameworks for the reproducible evaluation of machine learni
 
 </details>
 
-<details class="software-group" open>
+<details class="software-group" open markdown="1">
 <summary class="software-heading"><span class="software-title">NiftyWeb</span></summary>
 
 <p class="software-links">
@@ -87,7 +87,7 @@ I contributed to the creation of the [pCT web service tool](http://niftyweb.cs.u
 
 </details>
 
-<details class="software-group" open>
+<details class="software-group" open markdown="1">
 <summary class="software-heading"><span class="software-title">NiftySeg</span></summary>
 
 <p class="software-links">
