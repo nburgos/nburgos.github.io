@@ -203,6 +203,35 @@ details.software-group > ul {
   padding: 0 1.25rem;
 }
 
+// One-sentence description aligned with the section title in the summary row
+.software-summary {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-muted);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+details.software-group > summary:hover .software-summary {
+  color: #fff;
+  opacity: 0.9;
+}
+
+@media (max-width: 767px) {
+  .software-summary {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    flex-basis: 100%;
+    order: 2;
+    margin-top: 0.15rem;
+  }
+}
+
 // Reference lists inside software sections: slightly smaller, bullets indented
 details.software-group > ul {
   font-size: 0.92rem;

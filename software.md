@@ -5,7 +5,7 @@ permalink: /software/
 ---
 
 <details class="software-group" open markdown="1">
-<summary class="software-heading"><span class="software-title">Clinica</span></summary>
+<summary class="software-heading"><span class="software-title">Clinica</span><span class="software-summary">Software platform for neuroimaging studies</span></summary>
 
 <p class="software-links">
   <a class="pub-link" href="https://github.com/aramis-lab/clinica" target="_blank" rel="noopener">GitHub</a>
@@ -27,7 +27,7 @@ I lead the development of the project and manage the developers.
 </details>
 
 <details class="software-group" open markdown="1">
-<summary class="software-heading"><span class="software-title">ClinicaDL</span></summary>
+<summary class="software-heading"><span class="software-title">ClinicaDL</span><span class="software-summary">Library for reproducible deep learning in neuroimaging</span></summary>
 
 <p class="software-links">
   <a class="pub-link" href="https://github.com/aramis-lab/clinicadl" target="_blank" rel="noopener">GitHub</a>
@@ -35,7 +35,7 @@ I lead the development of the project and manage the developers.
   <a class="pub-link" href="https://aramislab.paris.inria.fr/clinicadl/tuto" target="_blank" rel="noopener">Tutorial</a>
 </p>
 
-[ClinicaDL](https://clinicadl.readthedocs.io) is an open source software platform that aims to enhance the reproducibility and rigour of research on deep learning applied to neuroimaging. Neuroimaging data have specific characteristics: they are three-dimensional, carry physical information such as voxel spacing, and are often longitudinal, which limits the direct use of standard deep learning frameworks. General-purpose medical imaging frameworks such as MONAI address some of these constraints, but lack integration with neuroimaging-specific data standards and preprocessing pipelines. ClinicaDL fills this gap by natively integrating with the brain imaging data structure (BIDS) and neuroimaging preprocessing pipelines, so it can be used with a large variety of neuroimaging datasets.
+[ClinicaDL](https://clinicadl.readthedocs.io) is an open source library that aims to enhance the reproducibility and rigour of research on deep learning applied to neuroimaging. Neuroimaging data have specific characteristics: they are three-dimensional, carry physical information such as voxel spacing, and are often longitudinal, which limits the direct use of standard deep learning frameworks. General-purpose medical imaging frameworks such as MONAI address some of these constraints, but lack integration with neuroimaging-specific data standards and preprocessing pipelines. ClinicaDL fills this gap by natively integrating with the brain imaging data structure (BIDS) and neuroimaging preprocessing pipelines, so it can be used with a large variety of neuroimaging datasets.
 
 Its main features include data preparation, model training, inference and prediction, and interpretation algorithms, supporting classification, regression, reconstruction, segmentation and generative tasks. Training outputs follow a dedicated structure, the Model Analysis and Processing Structure (MAPS), which stores checkpoints, logs, evaluation results and all elements required to reproduce an experiment, such as user-defined variables and the Python environment, thereby guarding against data leakage and ensuring reproducibility and fair comparison between models. The combination of ClinicaDL and its companion project Clinica allows an end-to-end neuroimaging analysis, from the download of raw datasets to the interpretation of trained networks, including preprocessing, quality check, label definition, architecture search, and network training and evaluation.
 
@@ -49,7 +49,7 @@ I lead the development of the project and manage the developers.
 </details>
 
 <details class="software-group" open markdown="1">
-<summary class="software-heading"><span class="software-title">AD-ML / AD-DL</span></summary>
+<summary class="software-heading"><span class="software-title">AD-ML / AD-DL</span><span class="software-summary">Frameworks for reproducible machine learning and deep learning classification of Alzheimer's disease</span></summary>
 
 <p class="software-links">
   <a class="pub-link" href="https://github.com/aramis-lab/ad-ml" target="_blank" rel="noopener">GitHub (AD-ML)</a>
@@ -70,7 +70,7 @@ AD-ML and AD-DL are frameworks for the reproducible evaluation of machine learni
 </details>
 
 <details class="software-group" open markdown="1">
-<summary class="software-heading"><span class="software-title">NiftyWeb</span></summary>
+<summary class="software-heading"><span class="software-title">NiftyWeb pCT</span><span class="software-summary">Web service tool for synthesis of CT images from MRI data</span></summary>
 
 <p class="software-links">
   <a class="pub-link" href="http://niftyweb.cs.ucl.ac.uk/index.php" target="_blank" rel="noopener">NiftyWeb</a>
@@ -88,7 +88,7 @@ I contributed to the creation of the [pCT web service tool](http://niftyweb.cs.u
 </details>
 
 <details class="software-group" open markdown="1">
-<summary class="software-heading"><span class="software-title">NiftySeg</span></summary>
+<summary class="software-heading"><span class="software-title">NiftySeg</span><span class="software-summary">Image segmentation and parcellation software</span></summary>
 
 <p class="software-links">
   <a class="pub-link" href="https://github.com/KCL-BMEIS/NiftySeg" target="_blank" rel="noopener">GitHub</a>
