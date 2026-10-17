@@ -118,14 +118,17 @@
 }
 
 // ---------- Publications page ----------
-details.pub-group {
+// (shared with the Software page's foldable sections)
+details.pub-group,
+details.software-group {
   margin: 0 0 1.25rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden; // clip content against rounded corners
 }
 
-details.pub-group > summary {
+details.pub-group > summary,
+details.software-group > summary {
   list-style: none; // hide default disclosure triangle
   display: flex;
   align-items: baseline;
@@ -139,11 +142,13 @@ details.pub-group > summary {
   box-sizing: border-box;
 }
 
-details.pub-group > summary::-webkit-details-marker {
+details.pub-group > summary::-webkit-details-marker,
+details.software-group > summary::-webkit-details-marker {
   display: none; // Safari
 }
 
-details.pub-group > summary:hover {
+details.pub-group > summary:hover,
+details.software-group > summary:hover {
   background: var(--accent);
   color: #fff;
 
@@ -152,7 +157,8 @@ details.pub-group > summary:hover {
   }
 }
 
-.pub-type-title {
+.pub-type-title,
+.software-title {
   font-size: 1.25rem;
   font-weight: 700;
   color: inherit;
@@ -161,7 +167,8 @@ details.pub-group > summary:hover {
   gap: 0.6rem;
 }
 
-.pub-type-title::before {
+.pub-type-title::before,
+.software-title::before {
   content: "";
   width: 0;
   height: 0;
@@ -173,7 +180,8 @@ details.pub-group > summary:hover {
   transition: transform 0.2s ease;
 }
 
-details[open] > summary .pub-type-title::before {
+details[open] > summary .pub-type-title::before,
+details[open] > summary .software-title::before {
   transform: rotate(90deg) translateX(2px);
 }
 
@@ -186,6 +194,20 @@ details[open] > summary .pub-type-title::before {
 
 .pub-list {
   padding: 0 1.25rem 0.75rem;
+}
+
+// ---------- Software page ----------
+.software-body,
+details.software-group > p,
+details.software-group > ul {
+  padding: 0 1.25rem;
+}
+
+.software-links {
+  margin: 0.85rem 0 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 // ---------- Year filter chips ----------
