@@ -1,5 +1,17 @@
 [
   {
+    "authors": "M. Solal, P. André, N. Burgos",
+    "doi": "10.1117/1.JMI.13.4.044003",
+    "section_label": "Journal articles",
+    "submitted": "2026-10-12 16:07:41",
+    "title": "Unsupervised anomaly detection with deep generative models: an experimental analysis of model variability and mitigation strategies",
+    "type": "ART",
+    "type_label": "Journal articles",
+    "uri": "https://hal.science/hal-05795270v1",
+    "venue": "Journal of Medical Imaging, vol. 13, no. 04, pp. 1-22, SPIE Digital Library",
+    "year": "2026"
+  },
+  {
     "authors": "N. Bhagwat, M. Wang, M. Dugré, J.-K. Pfarr, A. Dai, S. Urchs, B. Mcpherson, R. Gau, E. van Heese, E. D’angremont, M. Laansma, S. Prasad, J. Sanz-Robinson, M. Torabi, A. Jahanpour, M. Danyluik, A. Joubert, A. Macdonald, L. Waller, A. Stewart, M. Joulot, E. Dickie, G. Devenyi, S. Bouix, S. Bollmann, N. Jahanshad, P. Thompson, N. Burgos, M.-M. Chakravarty, Y. Halchenko, Y. van der Werf, J.-B. Poline",
     "doi": "10.64898/2026.05.18.723593",
     "section_label": "Preprints",
