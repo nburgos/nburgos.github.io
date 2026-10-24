@@ -4,7 +4,7 @@
     {%- assign pubs = site.data.publications | sort: "submitted" | reverse -%}
     {%- assign shown = 0 -%}
     {%- for pub in pubs -%}
-      {%- if shown < 9 -%}
+      {%- if shown < 9 and pub.section_label != "National conference abstracts" -%}
       <li>
         <a href="{{ pub.uri }}" target="_blank" rel="noopener">{{ pub.title }}</a>
       </li>
