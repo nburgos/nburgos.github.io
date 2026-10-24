@@ -204,6 +204,11 @@ main {
 
 .about-photo {
   flex: 0 0 220px;
+  // Drop the photo below the "About me" heading so its top edge sits
+  // level with the first line of the bio text.
+  // 1.92 = h1 line-height (1.25) + default h1 bottom margin (0.67em),
+  // scaled by the same clamp() as the h1 font size.
+  margin-top: calc(clamp(1.75rem, 3vw, 2.5rem) * 1.92);
 }
 
 .about-photo img {
