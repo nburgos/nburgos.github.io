@@ -14,17 +14,22 @@
 }
 
 .latest-pubs-list {
-  list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
+  padding-left: 1.25rem;
+}
+
+.latest-pubs-list li + li {
+  margin-top: 0.35rem;
+}
+
+.latest-pubs-list li::marker {
+  color: var(--accent);
 }
 
 .latest-pubs-list a {
   color: var(--text);
-  font-weight: 600;
+  font-size: 0.95rem;
+  font-weight: 400;
   line-height: 1.45;
 }
 
