@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="about">
   <div class="about-photo">
-    <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Ninon Burgos" width="220" height="283">
+    <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Ninon Burgos" width="220" height="220">
   </div>
   <div class="about-text">
     <h1 style="margin-top:0">About me</h1>
