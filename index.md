@@ -13,4 +13,9 @@ layout: default
   </div>
 </div>
 
+<h2 id="contact">Contact</h2>
+<p>The best way to reach me is by email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+<p class="contact-note"><em>Note: Due to the large number of inquiries and commitments, I may unfortunately not be able to respond to all emails.</em></p>
+<p>If you are interested in joining the team, please apply by filling in <a href="https://docs.google.com/forms/d/1QyaYN6KkqNF0QLKU6NGX2CtBQAFV3pIbTvIWvoAWoOY/viewform" target="_blank" rel="noopener">this form</a>.</p>
+
 {% include latest-pubs.html %}
