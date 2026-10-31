@@ -13,8 +13,8 @@ layout: default
   </div>
 </div>
 
-<h2 id="contact">Contact</h2>
 <div class="contact-card">
+  <h2 id="contact">Contact</h2>
   <p class="contact-lead">The best way to reach me is by email:</p>
   <p class="contact-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   <p class="contact-note">Due to the large number of inquiries and commitments, I may unfortunately not be able to respond to all emails.</p>

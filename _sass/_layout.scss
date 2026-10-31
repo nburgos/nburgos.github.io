@@ -242,9 +242,15 @@ main {
 
 // ---------- Home contact card ----------
 .contact-card {
+  margin-top: 2.2rem; // section spacing previously provided by the outside h2
   background: var(--surface);
   border-radius: 8px;
   padding: 1.25rem 1.75rem 1.5rem;
+}
+
+.contact-card h2 {
+  margin-top: 0;
+  padding-bottom: 0.4rem;
 }
 
 .contact-lead {
