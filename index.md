@@ -17,10 +17,10 @@ layout: default
   <h2 id="contact">Contact</h2>
   <p class="contact-lead">The best way to reach me is by email: <a class="contact-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
   <p class="contact-note">Due to the large number of inquiries and commitments, I may unfortunately not be able to respond to all emails.</p>
-  <div class="contact-join">
-    <p class="contact-join-title">Interested in joining the team?</p>
+  <p class="contact-join">
+    <span>Interested in joining the team?</span>
     <a class="cv-button" href="https://docs.google.com/forms/d/1QyaYN6KkqNF0QLKU6NGX2CtBQAFV3pIbTvIWvoAWoOY/viewform" target="_blank" rel="noopener">Apply via the application form</a>
-  </div>
+  </p>
 </div>
 
 {% include latest-pubs.html %}
