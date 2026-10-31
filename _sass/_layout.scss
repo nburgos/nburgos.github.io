@@ -240,9 +240,50 @@ main {
   text-decoration: none;
 }
 
+// ---------- Home contact card ----------
+.contact-card {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 1.25rem 1.75rem 1.5rem;
+}
+
+.contact-lead {
+  margin: 0;
+}
+
+.contact-email {
+  margin: 0.25rem 0 0;
+  font-size: 1.15rem;
+}
+
+.contact-email a {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.contact-email a:hover {
+  color: var(--accent);
+}
+
 .contact-note {
+  margin: 0.4rem 0 0;
   font-size: 0.92rem;
   color: var(--text-muted);
+}
+
+.contact-join {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.contact-join-title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.contact-card .cv-button {
+  margin: 0.7rem 0 0;
 }
 
 // ---------- Footer ----------
