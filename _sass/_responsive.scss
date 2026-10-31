@@ -35,8 +35,9 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-// Small screens: hamburger + dropdown menu
-@media (max-width: 767px) {
+// Below 900px: hamburger + dropdown menu (the one-row header does not
+// fit reliably between 768 and 900px)
+@media (max-width: 900px) {
   .header-inner {
     flex-wrap: nowrap;
   }
@@ -146,8 +147,10 @@
     border-top: none;
     margin-top: 0.15rem;
   }
+}
 
-  // Bio: photo stacks above the text
+// Bio: photo stacks above the text
+@media (max-width: 767px) {
   .about {
     flex-direction: column;
     align-items: center;
