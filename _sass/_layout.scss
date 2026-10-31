@@ -245,7 +245,7 @@ main {
   margin-top: 2.2rem; // section spacing previously provided by the outside h2
   background: var(--surface);
   border-radius: 8px;
-  padding: 1.25rem 1.75rem 1.5rem;
+  padding: 1.25rem 1.75rem;
 }
 
 .contact-card h2 {
@@ -258,16 +258,11 @@ main {
 }
 
 .contact-email {
-  margin: 0.25rem 0 0;
-  font-size: 1.15rem;
-}
-
-.contact-email a {
   color: var(--accent-strong);
   font-weight: 700;
 }
 
-.contact-email a:hover {
+.contact-email:hover {
   color: var(--accent);
 }
 
@@ -278,8 +273,8 @@ main {
 }
 
 .contact-join {
-  margin-top: 1.1rem;
-  padding-top: 1rem;
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
   border-top: 1px solid var(--border);
 }
 
@@ -289,7 +284,7 @@ main {
 }
 
 .contact-card .cv-button {
-  margin: 0.7rem 0 0;
+  margin: 0.6rem 0 0;
 }
 
 // ---------- Footer ----------
