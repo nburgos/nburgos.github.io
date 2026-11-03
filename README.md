@@ -1,8 +1,7 @@
 # ninonburgos.com
 
 Personal website of Ninon Burgos, built with Jekyll and hosted on GitHub Pages.
-Live at <https://nburgos.github.io> until the custom domain is connected (see
-[Deployment](#deployment) below).
+Live at <https://ninonburgos.com>.
 
 ## Editing content
 
@@ -60,9 +59,9 @@ python3 scripts/fetch_publications.py
 
 Push to `main` — GitHub Pages builds and deploys automatically.
 
-**Custom domain (ninonburgos.com):** DNS still points to the old WordPress
-site. The `CNAME` file is intentionally **absent** until the cutover at the
-registrar — with a `CNAME` present, GitHub redirects `nburgos.github.io` to
-`ninonburgos.com`, which would break the preview URL. At cutover: point the
-domain's A/AAAA records and the `www` CNAME at GitHub Pages, restore the
-`CNAME` file, then enforce HTTPS in the repository's Pages settings.
+**Custom domain:** the site is served at <https://ninonburgos.com>. The
+`CNAME` file registers the domain with GitHub Pages; at the OVH DNS zone the
+apex points to GitHub's Pages servers (four `A` + four `AAAA` records) and
+`www` is a CNAME to `nburgos.github.io`; HTTPS is enforced in the
+repository's Pages settings. `nburgos.github.io` and `www.ninonburgos.com`
+both redirect to the apex domain.
